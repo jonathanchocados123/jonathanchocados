@@ -1,5 +1,3 @@
-"use client"
-
 import "./globals.css"
 import { Header } from "@/components/header"
 
@@ -12,7 +10,7 @@ export const metadata = {
     "reparación autos chocados",
     "venta autos chocados Chile",
     "servicio de grúa Lonquén",
-    "Chocados Jonathan"
+    "Chocados Jonathan",
   ],
   openGraph: {
     title: "Chocados Jonathan",
@@ -30,18 +28,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body
-        className="min-h-screen bg-black text-white"
-        style={{
-          backgroundImage: "url('/bg/1.1.1.jpg')",
-          backgroundSize: "cover",
-          backgroundAttachment: "fixed",
-        }}
-      >
-         <Header />
+      <body className="min-h-screen bg-black text-white">
+        <Header />
         {children}
       </body>
     </html>
   )
 }
-
