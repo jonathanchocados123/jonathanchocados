@@ -1,5 +1,8 @@
 import "./globals.css"
 import { Header } from "@/components/header"
+import { WhatsAppFloat } from "@/components/WhatsAppFloat"
+import { Footer } from "@/components/footer"
+
 
 export const metadata = {
   title: "Chocados Jonathan | Reparación y Venta de Vehículos Chocados",
@@ -19,6 +22,14 @@ export const metadata = {
     locale: "es_CL",
     type: "website",
   },
+  robots: {
+  index: true,
+  follow: true,
+},
+alternates: {
+  canonical: "https://chocadosjonathan.cl",
+},
+
 }
 
 export default function RootLayout({
@@ -31,6 +42,8 @@ export default function RootLayout({
       <body className="min-h-screen bg-black text-white">
         <Header />
         {children}
+        <WhatsAppFloat />
+        <Footer />
       </body>
     </html>
   )
