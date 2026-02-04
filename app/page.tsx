@@ -54,6 +54,78 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SERVICIOS */}
+<section id="servicios" className="py-24 px-6 max-w-7xl mx-auto">
+  <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-6 bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 bg-clip-text text-transparent">
+    Nuestros Servicios
+  </h2>
+
+  <p className="text-center text-neutral-400 max-w-3xl mx-auto mb-16">
+    En <strong>Chocados Jonathan</strong> ofrecemos soluciones completas para vehículos chocados,
+    combinando experiencia técnica, transparencia y atención personalizada.
+  </p>
+
+  <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+    
+    {/* SERVICIO 1 */}
+    <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8 hover:border-amber-500 transition">
+      <h3 className="text-xl font-semibold mb-3 text-amber-400">
+        🔧 Reparación de Vehículos Chocados
+      </h3>
+      <p className="text-neutral-300 leading-relaxed">
+        Reparamos vehículos chocados devolviéndoles su seguridad estructural,
+        funcionalidad mecánica y estética, utilizando procesos confiables y materiales de calidad.
+      </p>
+    </div>
+
+    {/* SERVICIO 2 */}
+    <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8 hover:border-amber-500 transition">
+      <h3 className="text-xl font-semibold mb-3 text-amber-400">
+        🚗 Restauración Automotriz
+      </h3>
+      <p className="text-neutral-300 leading-relaxed">
+        Restauramos vehículos dañados para que vuelvan a lucir como nuevos,
+        cuidando cada detalle estético y mecánico para maximizar su valor final.
+      </p>
+    </div>
+
+    {/* SERVICIO 3 */}
+    <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8 hover:border-amber-500 transition">
+      <h3 className="text-xl font-semibold mb-3 text-amber-400">
+        💰 Venta de Autos Restaurados
+      </h3>
+      <p className="text-neutral-300 leading-relaxed">
+        Comercializamos vehículos chocados completamente restaurados,
+        listos para su uso, con asesoría clara y honesta durante todo el proceso.
+      </p>
+    </div>
+
+    {/* SERVICIO 4 */}
+    <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8 hover:border-amber-500 transition">
+      <h3 className="text-xl font-semibold mb-3 text-amber-400">
+        🚛 Servicio de Grúa
+      </h3>
+      <p className="text-neutral-300 leading-relaxed">
+        Contamos con servicio de grúa rápido y seguro para el traslado de vehículos,
+        brindando apoyo inmediato en situaciones de emergencia o traslado a taller.
+      </p>
+    </div>
+
+    {/* SERVICIO 5 */}
+    <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8 hover:border-amber-500 transition">
+      <h3 className="text-xl font-semibold mb-3 text-amber-400">
+        🤝 Asesoría Personalizada
+      </h3>
+      <p className="text-neutral-300 leading-relaxed">
+        Acompañamos a nuestros clientes en cada etapa, resolviendo dudas y ofreciendo
+        orientación transparente para tomar la mejor decisión según sus necesidades.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
       {/* CATÁLOGO */}
       <section id="catalogo" className="py-24 px-6 max-w-7xl mx-auto">
         <h2 className="text-4xl font-semibold mb-16 text-center bg-gradient-to-r from-amber-400 to-yellow-500 bg-clip-text text-transparent">
