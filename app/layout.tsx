@@ -44,6 +44,31 @@ export default function RootLayout({
         {children}
         <WhatsAppFloat />
         <Footer />
+        <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      name: "Jonathan Chocados",
+      image: "https://tudominio.cl/videologo.gif",
+      telephone: "+56978605469",
+      email: "jonathanchocados@gmail.com",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Camino Lonquén Paradero 34",
+        addressLocality: "Santiago",
+        addressCountry: "CL"
+      },
+      url: "https://tudominio.cl",
+      sameAs: [
+        "https://www.facebook.com/share/p/16xhojKU5j/",
+        "https://instagram.com/jonathanchocados1"
+      ]
+    })
+  }}
+/>
+
       </body>
     </html>
   )
