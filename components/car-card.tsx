@@ -1,324 +1,103 @@
-export interface Car {
-  id: number
-  marca: string
-  modelo: string
-  año: number
-  precio: string
-  kilometraje?: string
-  motor?: string
-  estado?: string
-  descripcion?: string
+"use client"
+
+import { Mail, MessageCircle, Gauge, Calendar, Fuel } from "lucide-react"
+import type { Car } from "@/lib/car-data"
+
+interface CarCardProps {
+  car: Car
 }
 
-export const cars: Car[] = [
-  {
-    id: 1,
-    marca: "Ford",
-    modelo: "Mustang",
-    año: 1967,
-    precio: "$45,000",
-    kilometraje: "85,000 km",
-    motor: "V8 4.7L",
-    descripcion:
-      "Mustang clásico completamente restaurado con motor V8 original. Pintura nueva, interior en cuero restaurado, transmisión manual de 4 velocidades.",
-  },
-  {
-    id: 2,
-    marca: "Chevrolet",
-    modelo: "Camaro",
-    año: 1969,
-    precio: "$52,000",
-    kilometraje: "92,000 km",
-    motor: "V8 5.7L",
-    descripcion:
-      "Camaro SS con reformas de alto rendimiento. Sistema de frenos actualizado, suspensión deportiva, motor reconstruido.",
-  },
-  {
-    id: 3,
-    marca: "Porsche",
-    modelo: "911",
-    año: 1973,
-    precio: "$78,000",
-    kilometraje: "65,000 km",
-    motor: "Flat-6 2.4L",
-    descripcion:
-      "911 clásico en excelente estado. Números coincidentes, color original.",
-  },
-  {
-    id: 4,
-    marca: "Mercedes-Benz",
-    modelo: "280SL",
-    año: 1971,
-    precio: "$95,000",
-    kilometraje: "78,000 km",
-    motor: "L6 2.8L",
-    descripcion:
-      "Pagoda en condición impecable. Hardtop original incluido, documentación completa.",
-  },
-  {
-    id: 5,
-    marca: "Volkswagen",
-    modelo: "Beetle",
-    año: 1965,
-    precio: "$22,000",
-    kilometraje: "110,000 km",
-    motor: "Flat-4 1.3L",
-    descripcion:
-      "Escarabajo clásico en excelente condición. Motor reconstruido, pintura nueva, interiores restaurados.",
-  },
-  {
-    id: 6,
-    marca: "Jaguar",
-    modelo: "E-Type",
-    año: 1968,
-    precio: "$125,000",
-    kilometraje: "55,000 km",
-    motor: "L6 4.2L",
-    descripcion: "E-Type Series 1.5 completamente restaurado. Una de las máquinas más hermosas jamás fabricadas.",
-  },
-  {
-    id: 7,
-    marca: "Chevrolet",
-    modelo: "Corvette",
-    año: 1963,
-    precio: "$89,000",
-    kilometraje: "72,000 km",
-    motor: "V8 5.4L",
-    descripcion: "Corvette Split Window, modelo icónico. Números coincidentes.",
-  },
-  {
-    id: 8,
-    marca: "BMW",
-    modelo: "2002",
-    año: 1974,
-    precio: "$38,000",
-    kilometraje: "95,000 km",
-    motor: "L4 2.0L",
-    descripcion: "BMW 2002 Turbo, el primer turbo de producción de BMW.",
-  },
-  {
-    id: 9,
-    marca: "Alfa Romeo",
-    modelo: "Spider",
-    año: 1970,
-    precio: "$42,000",
-    kilometraje: "88,000 km",
-    motor: "L4 1.8L",
-     
-    descripcion: "Spider Duetto en rojo italiano. Mecánica impecable, carrocería restaurada, capota nueva.",
-  },
-  {
-    id: 10,
-    marca: "Dodge",
-    modelo: "Charger",
-    año: 1970,
-    precio: "$68,000",
-    kilometraje: "105,000 km",
-    motor: "V8 7.2L",
-    descripcion: "Charger R/T con motor 440 Magnum. Muscle car americano en su máxima expresión.",
-  },
-  {
-    id: 11,
-    marca: "Plymouth",
-    modelo: "Barracuda",
-    año: 1970,
-    precio: "$72,000",
-    kilometraje: "98,000 km",
-    motor: "V8 7.0L",
-     
-    descripcion: "'Cuda con motor 426 Hemi. Ddocumentación completa.",
-  },
-  {
-    id: 12,
-    marca: "Pontiac",
-    modelo: "GTO",
-    año: 1967,
-    precio: "$55,000",
-    kilometraje: "115,000 km",
-    motor: "V8 6.6L",
-    descripcion: "GTO, el muscle car original. Motor 400 ci, transmisión automática, aire acondicionado.",
-  },
-  {
-    id: 13,
-    marca: "Triumph",
-    modelo: "TR6",
-    año: 1972,
-    precio: "$32,000",
-    kilometraje: "82,000 km",
-    motor: "L6 2.5L",
-    descripcion: "TR6 roadster británico. Hardtop incluido.",
-  },
-  {
-    id: 14,
-    marca: "MG",
-    modelo: "MGB",
-    año: 1968,
-    precio: "$26,000",
-    kilometraje: "95,000 km",
-    motor: "L4 1.8L",
-    descripcion: "MGB Roadster clásico. Motor reconstruido, suspensión nueva, capota nueva.",
-  },
-  {
-    id: 15,
-    marca: "Datsun",
-    modelo: "240Z",
-    año: 1971,
-    precio: "$48,000",
-    kilometraje: "78,000 km",
-    motor: "L6 2.4L",
-     
-    descripcion: "240Z en condición excepcional. Mecánica perfecta.",
-  },
-  {
-    id: 16,
-    marca: "Fiat",
-    modelo: "124 Spider",
-    año: 1975,
-    precio: "$28,000",
-    kilometraje: "105,000 km",
-    motor: "L4 1.8L",
-    descripcion: "124 Spider italiano. Motor reconstruido, carrocería sólida, pintura nueva.",
-  },
-  {
-    id: 17,
-    marca: "Ford",
-    modelo: "Bronco",
-    año: 1972,
-    precio: "$58,000",
-    kilometraje: "125,000 km",
-    motor: "V8 5.0L",
-    descripcion: "Bronco de primera generación. 4x4 funcional, interior nuevo.",
-  },
-  {
-    id: 18,
-    marca: "Chevrolet",
-    modelo: "C10",
-    año: 1969,
-    precio: "$35,000",
-    kilometraje: "135,000 km",
-    motor: "L6 4.1L",
-    estado: "Reformado",
-    descripcion: "C10 pickup clásica. Motor nuevo, suspensión rebajada, llantas personalizadas.",
-  },
-  {
-    id: 19,
-    marca: "Land Rover",
-    modelo: "Series III",
-    año: 1974,
-    precio: "$42,000",
-    kilometraje: "145,000 km",
-    motor: "L4 2.3L",
-    descripcion: "Series III icónico. 4x4 impecable, carrocería libre de óxido.",
-  },
-  {
-    id: 20,
-    marca: "Toyota",
-    modelo: "Land Cruiser FJ40",
-    año: 1976,
-    precio: "$65,000",
-    kilometraje: "155,000 km",
-    motor: "L6 4.2L",
-    descripcion: "FJ40 legendario. 4x4 perfecto.",
-  },
-  {
-    id: 21,
-    marca: "Austin-Healey",
-    modelo: "3000",
-    año: 1964,
-    precio: "$75,000",
-    kilometraje: "68,000 km",
-    motor: "L6 2.9L",
-    descripcion: "3000 Mk III en condición concours. Números coincidentes.",
-  },
-  {
-    id: 22,
-    marca: "Shelby",
-    modelo: "GT500",
-    año: 1968,
-    precio: "$185,000",
-    kilometraje: "52,000 km",
-    motor: "V8 7.0L",
-    descripcion: "GT500 original de Carroll Shelby. Documentación Shelby completa, números coincidentes.",
-  },
-  {
-    id: 23,
-    marca: "Oldsmobile",
-    modelo: "442",
-    año: 1970,
-    precio: "$62,000",
-    kilometraje: "108,000 km",
-    motor: "V8 7.5L",
-    estado: "Reformado",
-    descripcion: "442 W-30, uno de los muscle cars más potentes. Motor 455, capó funcional ram air.",
-  },
-  {
-    id: 24,
-    marca: "AMC",
-    modelo: "Javelin",
-    año: 1971,
-    precio: "$38,000",
-    kilometraje: "98,000 km",
-    motor: "V8 5.9L",
-    descripcion: "Javelin AMX, diseño único americano. Isnteriores originales.",
-  },
-  {
-    id: 25,
-    marca: "Buick",
-    modelo: "GSX",
-    año: 1970,
-    precio: "$95,000",
-    kilometraje: "62,000 km",
-    motor: "V8 7.5L",
-    descripcion: "GSX Stage 1, muscle car extremadamente raro. Solo 678 producidos en 1970.",
-  },
-  {
-    id: 26,
-    marca: "Mercury",
-    modelo: "Cougar",
-    año: 1969,
-    precio: "$42,000",
-    kilometraje: "92,000 km",
-    motor: "V8 5.8L",
-    descripcion: "Cougar Eliminator en amarillo competition. Motor Boss 302, transmisión manual.",
-  },
-  {
-    id: 27,
-    marca: "Studebaker",
-    modelo: "Avanti",
-    año: 1963,
-    precio: "$48,000",
-    kilometraje: "75,000 km",
-    motor: "V8 4.7L",
-    descripcion: "Avanti con diseño futurista de Raymond Loewy. Carrocería de fibra de vidrio.",
-  },
-  {
-    id: 28,
-    marca: "DeLorean",
-    modelo: "DMC-12",
-    año: 1981,
-    precio: "$58,000",
-    kilometraje: "45,000 km",
-    motor: "V6 2.9L",
-    descripcion: "DMC-12 icónico de 'Volver al Futuro'. Carrocería de acero inoxidable, puertas gullwing.",
-  },
-  {
-    id: 29,
-    marca: "Ferrari",
-    modelo: "308 GTS",
-    año: 1978,
-    precio: "$125,000",
-    kilometraje: "58,000 km",
-    motor: "V8 2.9L",
-    descripcion: "308 GTS de Magnum P.I. Targa top, rosso corsa, servicio completo reciente.",
-  },
-  {
-    id: 30,
-    marca: "Lamborghini",
-    modelo: "Countach",
-    año: 1985,
-    precio: "$385,000",
-    kilometraje: "35,000 km",
-    motor: "V12 5.2L",
-    descripcion: "Countach 5000 QV, el superdeportivo definitivo de los 80s. Estado impecable.",
-  },
-]
+export function CarCard({ car }: CarCardProps) {
+  const handleWhatsApp = () => {
+    const message = encodeURIComponent(
+      `Hola, estoy interesado en el ${car.marca} ${car.modelo} ${car.año}`,
+    )
+    window.open(`https://wa.me/1234567890?text=${message}`, "_blank")
+  }
+
+  const handleEmail = () => {
+    const subject = encodeURIComponent(`Consulta: ${car.marca} ${car.modelo}`)
+    const body = encodeURIComponent(
+      `Hola,\n\nEstoy interesado en obtener más información sobre:\n${car.marca} ${car.modelo} ${car.año}\nPrecio: ${car.precio}\n\nGracias.`,
+    )
+    window.location.href = `mailto:info@luxuryclassics.com?subject=${subject}&body=${body}`
+  }
+
+  return (
+    <div className="flex flex-col overflow-hidden rounded-2xl border border-zinc-700 bg-zinc-900 hover:border-zinc-400 transition">
+      {/* Imagen */}
+     <div className="relative aspect-[4/3] overflow-hidden">
+  <img
+    src={`/autos/${(car.id % 11) + 1}.jpg`}
+    alt={`${car.marca} ${car.modelo}`}
+    className="h-full w-full object-cover"
+  />
+
+  {car.estado && (
+    <span className="absolute top-3 right-3 rounded-full bg-white px-3 py-1 text-xs font-semibold text-black">
+      {car.estado}
+    </span>
+  )}
+</div>
+
+
+      {/* Contenido */}
+      <div className="p-6 flex flex-col gap-4">
+        <div>
+          <h3 className="text-2xl font-semibold text-white">
+            {car.marca} {car.modelo}
+          </h3>
+          <p className="text-3xl font-bold text-zinc-200 mt-1">
+            {car.precio}
+          </p>
+        </div>
+
+        <div className="space-y-2 text-sm text-zinc-400">
+          <div className="flex items-center gap-2">
+            <Calendar className="w-4 h-4" />
+            <span>Año: {car.año}</span>
+          </div>
+
+          {car.kilometraje && (
+            <div className="flex items-center gap-2">
+              <Gauge className="w-4 h-4" />
+              <span>{car.kilometraje}</span>
+            </div>
+          )}
+
+          {car.motor && (
+            <div className="flex items-center gap-2">
+              <Fuel className="w-4 h-4" />
+              <span>{car.motor}</span>
+            </div>
+          )}
+        </div>
+
+        {car.descripcion && (
+          <p className="text-sm text-zinc-400 line-clamp-3">
+            {car.descripcion}
+          </p>
+        )}
+
+        {/* Botones */}
+        <div className="mt-4 flex gap-3">
+          <button
+            onClick={handleWhatsApp}
+            className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl bg-green-600 px-4 py-3 text-sm font-semibold text-white hover:bg-green-500 transition"
+          >
+            <MessageCircle className="w-4 h-4" />
+            WhatsApp
+          </button>
+
+          <button
+            onClick={handleEmail}
+            className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl border border-zinc-500 px-4 py-3 text-sm font-semibold text-zinc-200 hover:bg-zinc-800 transition"
+          >
+            <Mail className="w-4 h-4" />
+            Email
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
