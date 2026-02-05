@@ -13,12 +13,12 @@ export function Header() {
         <div className="flex items-center gap-4">
           <img
             src="/videologo.gif"
-            alt="Chocados Jonathan"
+            alt="Chocados Jonathan Chocados"
             className="h-12 w-auto drop-shadow-[0_0_12px_rgba(255,191,0,0.6)]"
           />
 
           <span className="text-xl md:text-2xl font-extrabold tracking-wide bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 bg-clip-text text-transparent">
-            Chocados Jonathan
+            Chocados Jonathan Chocados
           </span>
         </div>
 
