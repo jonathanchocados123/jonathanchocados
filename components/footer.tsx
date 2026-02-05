@@ -57,6 +57,26 @@ export function Footer() {
       </a>
     </li>
 
+     <li>
+      <a
+        href="https://www.facebook.com/share/p/16xhojKU5j/"
+        className="flex items-center gap-2 hover:text-amber-400 transition"
+      >
+        <Mail size={16} />
+        Facebook
+      </a>
+    </li>
+
+     <li>
+      <a
+        href="https://instagram.com/jonathanchocados1"
+        className="flex items-center gap-2 hover:text-amber-400 transition"
+      >
+        <Mail size={16} />
+        Instagram
+      </a>
+    </li>
+
   </ul>
 </div>
 
@@ -67,6 +87,17 @@ export function Footer() {
           <p>Lunes a Viernes: 10:00 – 18:00</p>
           <p>Sábados: 10:00 – 14:00</p>
         </div>
+
+        <div className="mt-6 rounded-xl overflow-hidden border border-neutral-800">
+  <iframe
+    src="https://maps.google.com/maps?q=Camino%20Lonqu%C3%A9n%20Paradero%2034&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    width="100%"
+    height="200"
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
+
 
       </div>
 
