@@ -15,7 +15,7 @@ export default function Home() {
   </h1>
 
   <p className="text-xl text-neutral-200 mb-4">
-    Recuperación, restauración y venta de vehículos chocados
+    Venta de vehículos chocados
   </p>
 
   <p className="text-neutral-400 max-w-3xl mx-auto">
@@ -72,18 +72,7 @@ export default function Home() {
 
   <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
     
-    {/* SERVICIO 1 */}
-    <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8 hover:border-amber-500 transition">
-      <h3 className="text-xl font-semibold mb-3 text-amber-400">
-        🔧 Restauracion de Vehículos Chocados
-      </h3>
-      <p className="text-neutral-300 leading-relaxed">
-        Restauramos vehículos chocados devolviéndoles su seguridad estructural,
-        funcionalidad mecánica y estética, utilizando procesos confiables y materiales de calidad.
-      </p>
-    </div>
-
-   
+    
     {/* SERVICIO 4 */}
     <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8 hover:border-amber-500 transition">
       <h3 className="text-xl font-semibold mb-3 text-amber-400">
@@ -203,8 +192,8 @@ export default function Home() {
   <div className="grid gap-8 md:grid-cols-3">
     {[
       "Mi auto quedó como nuevo después del choque. Trabajo impecable.",
-      "Muy responsables y claros en todo el proceso.",
-      "Excelente servicio de grúa y restauracion rápida."
+      "Muy responsables y claros en todo el proceso."
+     
     ].map((text, i) => (
       <div
         key={i}
