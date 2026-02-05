@@ -83,18 +83,7 @@ export default function Home() {
       </p>
     </div>
 
-    {/* SERVICIO 2 */}
-    <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8 hover:border-amber-500 transition">
-      <h3 className="text-xl font-semibold mb-3 text-amber-400">
-        🚗 Restauración Automotriz
-      </h3>
-      <p className="text-neutral-300 leading-relaxed">
-        Restauramos vehículos dañados para que vuelvan a lucir como nuevos,
-        cuidando cada detalle estético y mecánico para maximizar su valor final.
-      </p>
-    </div>
-
-    {/* SERVICIO 3 */}
+       {/* SERVICIO 3 */}
     <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8 hover:border-amber-500 transition">
       <h3 className="text-xl font-semibold mb-3 text-amber-400">
         💰 Venta de Autos Restaurados
