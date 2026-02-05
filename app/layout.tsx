@@ -5,9 +5,9 @@ import { Footer } from "@/components/footer"
 
 
 export const metadata = {
-  title: "Chocados Jonathan | Reparación y Venta de Vehículos Chocados",
+  title: "Chocados Jonathan Chocados | Reparación y Venta de Vehículos Chocados",
   description:
-    "Chocados Jonathan en Lonquén. Reparación, restauración y venta de vehículos chocados. Servicio de grúa y atención personalizada.",
+    "Chocados Jonathan Chocados en Lonquén. Reparación, restauración y venta de vehículos chocados. Servicio de grúa y atención personalizada.",
   keywords: [
     "vehículos chocados",
     "reparación autos chocados",
@@ -16,7 +16,7 @@ export const metadata = {
     "Chocados Jonathan",
   ],
   openGraph: {
-    title: "Chocados Jonathan",
+    title: "Chocados Jonathan Chocados",
     description: "Especialistas en vehículos chocados y restaurados",
     images: ["/videologo.gif"],
     locale: "es_CL",
