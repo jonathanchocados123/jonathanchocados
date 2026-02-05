@@ -5,7 +5,7 @@ import { Mail, MessageCircle, MapPin, Phone } from "lucide-react"
 export function ContactSection() {
   const handleWhatsApp = () => {
     const message = encodeURIComponent(
-      "Hola, quisiera información sobre reparación o vehículos disponibles"
+      "Hola, quisiera información sobre restauración o vehículos disponibles"
     )
     window.open(`https://wa.me/56978605469?text=${message}`, "_blank")
   }
@@ -18,7 +18,7 @@ export function ContactSection() {
         </h2>
 
         <p className="text-neutral-300 mb-12">
-          Reparación, restauración y venta de vehículos chocados.  
+          Restauración y venta de vehículos chocados.  
           Servicio de grúa disponible.
         </p>
 
