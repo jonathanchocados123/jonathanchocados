@@ -66,7 +66,7 @@ export default function Home() {
   </h2>
 
   <p className="text-center text-neutral-400 max-w-3xl mx-auto mb-16">
-    En <strong>Chocados Jonathan</strong> ofrecemos soluciones completas para vehículos chocados,
+    En <strong>Chocados Jonathan Chocados</strong> ofrecemos soluciones completas para vehículos chocados,
     combinando experiencia técnica, transparencia y atención personalizada.
   </p>
 
@@ -197,7 +197,7 @@ export default function Home() {
                       target="_blank"
                       className="flex items-center gap-2 px-4 py-2 rounded-md bg-amber-400 text-black text-sm font-medium hover:bg-amber-300"
                     >
-                      <img src="/wath.gif" alt="WhatsApp" className="w-5 h-5" />
+                      <img src="/what.gif" alt="WhatsApp" className="w-5 h-5" />
                       WhatsApp
                     </a>
 
