@@ -19,7 +19,6 @@ export const cars: Car[] = [
     precio: "$45,000",
     kilometraje: "85,000 km",
     motor: "V8 4.7L",
-    estado: "Restaurado",
     descripcion:
       "Mustang clásico completamente restaurado con motor V8 original. Pintura nueva, interior en cuero restaurado, transmisión manual de 4 velocidades.",
   },
@@ -31,7 +30,6 @@ export const cars: Car[] = [
     precio: "$52,000",
     kilometraje: "92,000 km",
     motor: "V8 5.7L",
-    estado: "Reformado",
     descripcion:
       "Camaro SS con reformas de alto rendimiento. Sistema de frenos actualizado, suspensión deportiva, motor reconstruido.",
   },
@@ -43,9 +41,8 @@ export const cars: Car[] = [
     precio: "$78,000",
     kilometraje: "65,000 km",
     motor: "Flat-6 2.4L",
-    estado: "Restaurado",
     descripcion:
-      "911 clásico en excelente estado. Restauración completa documentada, números coincidentes, color original.",
+      "911 clásico en excelente estado. Números coincidentes, color original.",
   },
   {
     id: 4,
@@ -55,9 +52,8 @@ export const cars: Car[] = [
     precio: "$95,000",
     kilometraje: "78,000 km",
     motor: "L6 2.8L",
-    estado: "Restaurado",
     descripcion:
-      "Pagoda en condición impecable. Restauración completa, hardtop original incluido, documentación completa.",
+      "Pagoda en condición impecable. Hardtop original incluido, documentación completa.",
   },
   {
     id: 5,
@@ -67,7 +63,6 @@ export const cars: Car[] = [
     precio: "$22,000",
     kilometraje: "110,000 km",
     motor: "Flat-4 1.3L",
-    estado: "Reformado",
     descripcion:
       "Escarabajo clásico en excelente condición. Motor reconstruido, pintura nueva, interiores restaurados.",
   },
@@ -79,7 +74,6 @@ export const cars: Car[] = [
     precio: "$125,000",
     kilometraje: "55,000 km",
     motor: "L6 4.2L",
-    estado: "Restaurado",
     descripcion: "E-Type Series 1.5 completamente restaurado. Una de las máquinas más hermosas jamás fabricadas.",
   },
   {
@@ -90,8 +84,7 @@ export const cars: Car[] = [
     precio: "$89,000",
     kilometraje: "72,000 km",
     motor: "V8 5.4L",
-    estado: "Reformado",
-    descripcion: "Corvette Split Window, modelo icónico. Restauración profesional, números coincidentes.",
+    descripcion: "Corvette Split Window, modelo icónico. Números coincidentes.",
   },
   {
     id: 8,
@@ -101,8 +94,7 @@ export const cars: Car[] = [
     precio: "$38,000",
     kilometraje: "95,000 km",
     motor: "L4 2.0L",
-    estado: "Restaurado",
-    descripcion: "BMW 2002 Turbo, el primer turbo de producción de BMW. Restauración completa certificada.",
+    descripcion: "BMW 2002 Turbo, el primer turbo de producción de BMW.",
   },
   {
     id: 9,
@@ -112,7 +104,7 @@ export const cars: Car[] = [
     precio: "$42,000",
     kilometraje: "88,000 km",
     motor: "L4 1.8L",
-    estado: "Restaurado",
+     
     descripcion: "Spider Duetto en rojo italiano. Mecánica impecable, carrocería restaurada, capota nueva.",
   },
   {
@@ -123,7 +115,6 @@ export const cars: Car[] = [
     precio: "$68,000",
     kilometraje: "105,000 km",
     motor: "V8 7.2L",
-    estado: "Reformado",
     descripcion: "Charger R/T con motor 440 Magnum. Muscle car americano en su máxima expresión.",
   },
   {
@@ -134,8 +125,8 @@ export const cars: Car[] = [
     precio: "$72,000",
     kilometraje: "98,000 km",
     motor: "V8 7.0L",
-    estado: "Restaurado",
-    descripcion: "'Cuda con motor 426 Hemi. Restauración premiada, documentación completa.",
+     
+    descripcion: "'Cuda con motor 426 Hemi. Ddocumentación completa.",
   },
   {
     id: 12,
@@ -145,7 +136,6 @@ export const cars: Car[] = [
     precio: "$55,000",
     kilometraje: "115,000 km",
     motor: "V8 6.6L",
-    estado: "Reformado",
     descripcion: "GTO, el muscle car original. Motor 400 ci, transmisión automática, aire acondicionado.",
   },
   {
@@ -156,8 +146,7 @@ export const cars: Car[] = [
     precio: "$32,000",
     kilometraje: "82,000 km",
     motor: "L6 2.5L",
-    estado: "Restaurado",
-    descripcion: "TR6 roadster británico. Restauración completa, overdrive, hardtop incluido.",
+    descripcion: "TR6 roadster británico. Hardtop incluido.",
   },
   {
     id: 14,
@@ -167,7 +156,6 @@ export const cars: Car[] = [
     precio: "$26,000",
     kilometraje: "95,000 km",
     motor: "L4 1.8L",
-    estado: "Reformado",
     descripcion: "MGB Roadster clásico. Motor reconstruido, suspensión nueva, capota nueva.",
   },
   {
@@ -178,8 +166,8 @@ export const cars: Car[] = [
     precio: "$48,000",
     kilometraje: "78,000 km",
     motor: "L6 2.4L",
-    estado: "Restaurado",
-    descripcion: "240Z en condición excepcional. Restauración completa, sin óxido, mecánica perfecta.",
+     
+    descripcion: "240Z en condición excepcional. Mecánica perfecta.",
   },
   {
     id: 16,
@@ -189,7 +177,6 @@ export const cars: Car[] = [
     precio: "$28,000",
     kilometraje: "105,000 km",
     motor: "L4 1.8L",
-    estado: "Reformado",
     descripcion: "124 Spider italiano. Motor reconstruido, carrocería sólida, pintura nueva.",
   },
   {
@@ -200,8 +187,7 @@ export const cars: Car[] = [
     precio: "$58,000",
     kilometraje: "125,000 km",
     motor: "V8 5.0L",
-    estado: "Restaurado",
-    descripcion: "Bronco de primera generación. Restauración completa, 4x4 funcional, interior nuevo.",
+    descripcion: "Bronco de primera generación. 4x4 funcional, interior nuevo.",
   },
   {
     id: 18,
@@ -222,8 +208,7 @@ export const cars: Car[] = [
     precio: "$42,000",
     kilometraje: "145,000 km",
     motor: "L4 2.3L",
-    estado: "Restaurado",
-    descripcion: "Series III icónico. Restauración completa, 4x4 impecable, carrocería libre de óxido.",
+    descripcion: "Series III icónico. 4x4 impecable, carrocería libre de óxido.",
   },
   {
     id: 20,
@@ -233,8 +218,7 @@ export const cars: Car[] = [
     precio: "$65,000",
     kilometraje: "155,000 km",
     motor: "L6 4.2L",
-    estado: "Restaurado",
-    descripcion: "FJ40 legendario. Restauración profesional, motor reconstruido, 4x4 perfecto.",
+    descripcion: "FJ40 legendario. 4x4 perfecto.",
   },
   {
     id: 21,
@@ -244,8 +228,7 @@ export const cars: Car[] = [
     precio: "$75,000",
     kilometraje: "68,000 km",
     motor: "L6 2.9L",
-    estado: "Restaurado",
-    descripcion: "3000 Mk III en condición concours. Restauración premiada, números coincidentes.",
+    descripcion: "3000 Mk III en condición concours. Números coincidentes.",
   },
   {
     id: 22,
@@ -255,7 +238,6 @@ export const cars: Car[] = [
     precio: "$185,000",
     kilometraje: "52,000 km",
     motor: "V8 7.0L",
-    estado: "Restaurado",
     descripcion: "GT500 original de Carroll Shelby. Documentación Shelby completa, números coincidentes.",
   },
   {
@@ -277,8 +259,7 @@ export const cars: Car[] = [
     precio: "$38,000",
     kilometraje: "98,000 km",
     motor: "V8 5.9L",
-    estado: "Restaurado",
-    descripcion: "Javelin AMX, diseño único americano. Restauración completa, interiores originales.",
+    descripcion: "Javelin AMX, diseño único americano. Isnteriores originales.",
   },
   {
     id: 25,
@@ -288,7 +269,6 @@ export const cars: Car[] = [
     precio: "$95,000",
     kilometraje: "62,000 km",
     motor: "V8 7.5L",
-    estado: "Restaurado",
     descripcion: "GSX Stage 1, muscle car extremadamente raro. Solo 678 producidos en 1970.",
   },
   {
@@ -299,7 +279,6 @@ export const cars: Car[] = [
     precio: "$42,000",
     kilometraje: "92,000 km",
     motor: "V8 5.8L",
-    estado: "Reformado",
     descripcion: "Cougar Eliminator en amarillo competition. Motor Boss 302, transmisión manual.",
   },
   {
@@ -310,7 +289,6 @@ export const cars: Car[] = [
     precio: "$48,000",
     kilometraje: "75,000 km",
     motor: "V8 4.7L",
-    estado: "Restaurado",
     descripcion: "Avanti con diseño futurista de Raymond Loewy. Carrocería de fibra de vidrio.",
   },
   {
@@ -321,7 +299,6 @@ export const cars: Car[] = [
     precio: "$58,000",
     kilometraje: "45,000 km",
     motor: "V6 2.9L",
-    estado: "Restaurado",
     descripcion: "DMC-12 icónico de 'Volver al Futuro'. Carrocería de acero inoxidable, puertas gullwing.",
   },
   {
@@ -332,7 +309,6 @@ export const cars: Car[] = [
     precio: "$125,000",
     kilometraje: "58,000 km",
     motor: "V8 2.9L",
-    estado: "Restaurado",
     descripcion: "308 GTS de Magnum P.I. Targa top, rosso corsa, servicio completo reciente.",
   },
   {
@@ -343,7 +319,6 @@ export const cars: Car[] = [
     precio: "$385,000",
     kilometraje: "35,000 km",
     motor: "V12 5.2L",
-    estado: "Restaurado",
     descripcion: "Countach 5000 QV, el superdeportivo definitivo de los 80s. Estado impecable.",
   },
 ]
