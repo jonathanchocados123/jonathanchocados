@@ -11,7 +11,7 @@ export default function Home() {
 {/* PRESENTACIÓN */}
 <section className="py-24 px-6 max-w-5xl mx-auto text-center">
   <h1 className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 bg-clip-text text-transparent">
-    CHOCADOS JONATHAN
+    CHOCADOS JONATHAN CHOCADOS
   </h1>
 
   <p className="text-xl text-neutral-200 mb-4">
@@ -26,33 +26,38 @@ export default function Home() {
 
       
 
-      {/* MISIÓN & VISIÓN */}
-      <section className="py-24 px-6 max-w-6xl mx-auto grid gap-12 md:grid-cols-2">
-        <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8">
-          <h2 className="text-3xl font-semibold mb-4 text-amber-400">
-            Nuestra Misión
-          </h2>
-          <p className="text-neutral-300 leading-relaxed">
-            En <strong>Chocados Jonathan</strong> nos dedicamos a recuperar,
-            reparar y restaurar vehículos chocados, devolviéndoles su seguridad,
-            funcionalidad y valor. Trabajamos con compromiso, transparencia y
-            altos estándares de calidad, ofreciendo además servicio de grúa
-            confiable para acompañar a nuestros clientes en todo el proceso.
-          </p>
-        </div>
+     {/* MISIÓN & VISIÓN */}
+<section className="py-24 px-6 max-w-6xl mx-auto grid gap-12 md:grid-cols-2">
 
-        <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8">
-          <h2 className="text-3xl font-semibold mb-4 text-amber-400">
-            Nuestra Visión
-          </h2>
-          <p className="text-neutral-300 leading-relaxed">
-            Ser una empresa reconocida en Chile por la excelencia en la
-            recuperación automotriz, destacando por nuestro profesionalismo,
-            honestidad y atención personalizada, consolidándonos como un
-            referente en la venta de vehículos restaurados y servicios asociados.
-          </p>
-        </div>
-      </section>
+  <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8">
+    <h2 className="text-3xl font-semibold mb-4 text-amber-400">
+      Nuestra Misión
+    </h2>
+
+    <p className="text-neutral-300 leading-relaxed">
+      En <strong>Jonathan Chocados</strong> nos especializamos en la venta de vehículos
+      provenientes de compañías de seguros, ofreciendo alternativas accesibles,
+      transparentes y competitivas dentro del mercado automotriz chileno.
+      Trabajamos con ingreso constante de vehículos, atención clara y beneficios
+      adicionales como servicio de grúa y transferencia gratuita para nuestros clientes.
+    </p>
+  </div>
+
+  <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8">
+    <h2 className="text-3xl font-semibold mb-4 text-amber-400">
+      Nuestra Visión
+    </h2>
+
+    <p className="text-neutral-300 leading-relaxed">
+      Ser un referente nacional en la comercialización transparente de vehículos
+      chocados y de seguro, destacando por la honestidad, precios justos y procesos
+      claros de compra, brindando confianza total a cada cliente que elige trabajar
+      con nosotros.
+    </p>
+  </div>
+
+</section>
+
 
       {/* SERVICIOS */}
 <section id="servicios" className="py-24 px-6 max-w-7xl mx-auto">
@@ -123,6 +128,30 @@ export default function Home() {
     </div>
 
   </div>
+</section>
+
+{/* INFORMACIÓN DE COMPRA */}
+<section className="py-24 px-6 max-w-5xl mx-auto text-center">
+
+  <h2 className="text-4xl font-semibold mb-8 text-amber-400">
+    Información Importante para Compradores
+  </h2>
+
+  <p className="text-neutral-300 mb-6">
+    En <strong>Jonathan Chocados</strong> comercializamos vehículos provenientes de
+    compañías de seguros con ingreso de unidades nuevas todas las semanas,
+    ofreciendo precios altamente competitivos y un stock en constante renovación.
+  </p>
+
+  <div className="text-neutral-400 space-y-4 text-left max-w-3xl mx-auto">
+    <p>✔️ Todos los vehículos se venden en el estado en que se encuentran.</p>
+    <p>✔️ Invitamos a realizar una revisión completa antes de comprar.</p>
+    <p>✔️ Puede asistir con mecánico, escáner o herramientas de diagnóstico.</p>
+    <p>✔️ Una vez que el vehículo sale del recinto, no existe derecho a reclamo.</p>
+    <p>✔️ Incluimos transferencia gratuita como beneficio adicional.</p>
+    <p>✔️ Contamos con servicio de grúa disponible.</p>
+  </div>
+
 </section>
 
 
@@ -220,13 +249,7 @@ export default function Home() {
           Contáctanos
         </h2>
 
-        <div className="space-y-3 text-neutral-300">
-          <p>📍 Camino Lonquén, Paradero 34</p>
-          <p>📞 +56 9 4474 0997</p>
-          <p>📞 WhatsApp: +56 9 7860 5469</p>
-          <p>🕒 Lunes a Viernes: 10:00 – 18:00</p>
-          <p>🕒 Sábados: 10:00 – 14:00</p>
-        </div>
+     
       </section>
     </main>
   )
