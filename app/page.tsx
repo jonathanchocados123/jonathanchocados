@@ -75,10 +75,10 @@ export default function Home() {
     {/* SERVICIO 1 */}
     <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8 hover:border-amber-500 transition">
       <h3 className="text-xl font-semibold mb-3 text-amber-400">
-        🔧 Reparación de Vehículos Chocados
+        🔧 Restauracion de Vehículos Chocados
       </h3>
       <p className="text-neutral-300 leading-relaxed">
-        Reparamos vehículos chocados devolviéndoles su seguridad estructural,
+        Restauramos vehículos chocados devolviéndoles su seguridad estructural,
         funcionalidad mecánica y estética, utilizando procesos confiables y materiales de calidad.
       </p>
     </div>
@@ -225,7 +225,7 @@ export default function Home() {
     {[
       "Mi auto quedó como nuevo después del choque. Trabajo impecable.",
       "Muy responsables y claros en todo el proceso.",
-      "Excelente servicio de grúa y reparación rápida."
+      "Excelente servicio de grúa y restauracion rápida."
     ].map((text, i) => (
       <div
         key={i}
