@@ -11,10 +11,10 @@ export function WhatsAppFloat() {
       href={`https://wa.me/${phone}?text=${message}`}
       target="_blank"
       aria-label="WhatsApp"
-      className="fixed bottom-6 right-6 z-50 flex items-center gap-3 rounded-full bg-yellow-500 px-5 py-3 text-white shadow-lg hover:bg-green-600 transition"
+      className="fixed bottom-6 right-6 z-50 flex items-center gap-3 rounded-full bg-gray-900 px-5 py-3 text-white shadow-lg hover:bg-gray-900 transition animate-pulse hover:animate-none"
     >
       <img
-        src="/wath.gif"
+        src="/what.gif"
         alt="WhatsApp"
         className="w-7 h-7"
       />
@@ -24,4 +24,3 @@ export function WhatsAppFloat() {
     </a>
   )
 }
-
