@@ -9,7 +9,7 @@ export function Footer() {
         <div>
           <img src="/videologo.gif" alt="Chocados Jonathan Chocados" className="h-12 mb-4" />
           <p>
-            Especialistas en recuperación, reparación y venta de vehículos
+            Especialistas en recuperación y venta de vehículos
             chocados. Servicio profesional y transparente.
           </p>
         </div>
