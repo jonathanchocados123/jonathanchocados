@@ -83,17 +83,7 @@ export default function Home() {
       </p>
     </div>
 
-       {/* SERVICIO 3 */}
-    <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8 hover:border-amber-500 transition">
-      <h3 className="text-xl font-semibold mb-3 text-amber-400">
-        💰 Venta de Autos Restaurados
-      </h3>
-      <p className="text-neutral-300 leading-relaxed">
-        Comercializamos vehículos chocados completamente restaurados,
-        listos para su uso, con asesoría clara y honesta durante todo el proceso.
-      </p>
-    </div>
-
+   
     {/* SERVICIO 4 */}
     <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8 hover:border-amber-500 transition">
       <h3 className="text-xl font-semibold mb-3 text-amber-400">
