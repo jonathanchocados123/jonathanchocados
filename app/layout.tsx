@@ -26,6 +26,10 @@ export const metadata = {
   index: true,
   follow: true,
 },
+  verification: {
+  google: "nnWxe3B8yqiKH2bHVD0dtqeuYJ0QqcC1UxwgfrMFjJU",
+},
+
 alternates: {
   canonical: "https://chocadosjonathanchocados.com",
 },
@@ -74,5 +78,6 @@ export default function RootLayout({
     </html>
   )
 }
+
 
 
