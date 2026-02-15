@@ -62,7 +62,7 @@ export default function RootLayout({
       },
       url: "https://tudominio.cl",
       sameAs: [
-        "https://www.facebook.com/share/p/16xhojKU5j/",
+        "https://www.facebook.com/jonathan.chocados",
         "https://instagram.com/jonathanchocados1"
       ]
     })
