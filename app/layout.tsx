@@ -63,7 +63,8 @@ export default function RootLayout({
       url: "https://tudominio.cl",
       sameAs: [
         "https://www.facebook.com/jonathan.chocados",
-        "https://instagram.com/jonathanchocados1"
+        "https://instagram.com/jonathanchocados1",
+        "https://www.tiktok.com/@jonathanchocados1"
       ]
     })
   }}
