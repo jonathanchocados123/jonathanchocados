@@ -13,7 +13,7 @@ export function Hero() {
     <section className="relative h-[70vh] w-full overflow-hidden">
       <video
         id="hero-video"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-contain md:object-cover bg-black"
         src="/videbanner.mp4"
         autoPlay
         muted
@@ -34,3 +34,4 @@ export function Hero() {
     </section>
   )
 }
+
