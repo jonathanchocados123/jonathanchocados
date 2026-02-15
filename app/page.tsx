@@ -305,7 +305,7 @@ export default function Home() {
 
   <div className="grid gap-8 md:grid-cols-3">
     {[
-      "Mi auto quedó como nuevo después del choque. Trabajo impecable.",
+      "Excelente servicio, precios accequibles y justos",
       "Muy responsables y claros en todo el proceso."
      
     ].map((text, i) => (
@@ -336,3 +336,4 @@ export default function Home() {
     </main>
   )
 }
+
