@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, MessageCircle } from "lucide-react"
+import { MapPin, Phone, Mail, MessageCircle, Instagram, Facebook } from "lucide-react"
 
 export function Footer() {
   return (
@@ -76,6 +76,18 @@ export function Footer() {
         Instagram
       </a>
     </li>
+
+    <li>
+  <a
+    href="https://www.tiktok.com/@jonathanchocados1"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 hover:text-amber-400 transition"
+  >
+    <MessageCircle size={16} />
+    TikTok
+  </a>
+</li>
 
   </ul>
 </div>
