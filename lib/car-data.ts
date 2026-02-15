@@ -16,17 +16,17 @@ export interface Car {
 export const cars: Car[] = [
   {
     id: 1,
-    marca: "Toyota",
-    modelo: "Yaris",
-    año: 2023,
+    marca: "Chevrolet",
+    modelo: "Sail",
+    año: 2025,
     precio: "$8.990.000",
-    kilometraje: "60 mil km",
+    kilometraje: "20 mil km",
     transmision: "Manual",
     estado: "Se va andando",
-    airbag: "Activó airbag cortina",
+    airbag: "No activó airbag",
     descripcion: "Full. Vehículo de compañía de seguros.",
     nuevo: true,
-    imagenes: ["/6.jpg", "/7.jpg", "/8.jpg", "/5.jpg"]
+    imagenes: [""]
   },
   {
     id: 2,
@@ -100,17 +100,17 @@ export const cars: Car[] = [
   },
   {
     id: 7,
-    marca: "Mitsubishi",
-    modelo: "L200 Katana 4x4",
-    año: 2016,
-    precio: "$6.990.000",
-    kilometraje: "130 mil km",
+    marca: "Jmc",
+    modelo: "Vigus Word 4x44",
+    año: 2023,
+    precio: "$5.990.000",
+    kilometraje: "75 mil km Full (Diésel)4x4",
     transmision: "Manual",
     estado: "Funcionando",
     airbag: "Activó airbag",
     descripcion: "Full. Vehículo de compañía de seguros.",
     nuevo: true,
-    imagenes: ["/21.jpg","/22.jpg","/23.jpg", "/24.jpg"]
+    imagenes: ["/21.jpg"]
   },
   {
     id: 8,
@@ -128,17 +128,17 @@ export const cars: Car[] = [
   },
   {
     id: 9,
-    marca: "Suzuki",
-    modelo: "Swift Hybrid",
-    año: 2022,
+    marca: "Chevrolet",
+    modelo: "ónix RS",
+    año: 2023,
     precio: "$6.990.000",
-    kilometraje: "42 mil km",
+    kilometraje: "100 mil km",
     transmision: "Manual",
     estado: "Se va andando",
     airbag: "No activó airbag",
     descripcion: "Full. Vehículo de compañía de seguros.",
     nuevo: true,
-    imagenes: ["/29.jpg","/30.jpg","/31.jpg", "/32.jpg"]
+    imagenes: ["/29.jpg"]
   },
   {
     id: 10,
@@ -269,5 +269,45 @@ export const cars: Car[] = [
     descripcion: "Full. Vehículo de compañía de seguros.",
     nuevo: true,
     imagenes: ["/65.jpg","/66.jpg","/67.jpg"]
+  },
+  {
+    id: 20,
+    marca: "Mazda",
+    modelo: "cx30",
+    año: 2022,
+    precio: "9.990.000",
+    kilometraje: "210 mil km",
+    estado: "Funcionando",
+    airbag: "Activó airbag",
+    descripcion: "Full. Vehículo de compañía de seguros.",
+    nuevo: true,
+    imagenes: [""]
+  },
+    {
+    id: 21,
+    marca: "Chery",
+    modelo: "tiggo 2",
+    año: 2017,
+    precio: "2.990.000",
+    kilometraje: "70 mil km",
+    estado: "Funcionando",
+    airbag: "No activó airbag",
+    descripcion: "Full. Vehículo de compañía de seguros.",
+    nuevo: true,
+    imagenes: [""]
+  },
+   {
+    id: 22,
+    marca: "Great",
+    modelo: "Wall wingle 5 (Diésel)",
+    año: 2018,
+    precio: "5.990.000 ",
+    kilometraje: "70 mil km",
+    estado: "Funcionando",
+    airbag: "No activó airbag",
+    descripcion: "Full. Vehículo de compañía de seguros.",
+    nuevo: true,
+    imagenes: [""]
   }
+
 ]
