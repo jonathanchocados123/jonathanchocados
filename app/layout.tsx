@@ -27,7 +27,7 @@ export const metadata = {
   follow: true,
 },
 alternates: {
-  canonical: "https://chocadosjonathan.cl",
+  canonical: "https://chocadosjonathanchocados.com",
 },
 
 }
@@ -51,7 +51,7 @@ export default function RootLayout({
       "@context": "https://schema.org",
       "@type": "AutoDealer",
       name: "Jonathan Chocados",
-      image: "https://tudominio.cl/videologo.gif",
+      image: "https://chocadosjonathanchocados.com/videologo.gif",
       telephone: "+56978605469",
       email: "jonathanchocados@gmail.com",
       address: {
@@ -60,7 +60,7 @@ export default function RootLayout({
         addressLocality: "Santiago",
         addressCountry: "CL"
       },
-      url: "https://tudominio.cl",
+      url: "https://chocadosjonathanchocados.com",
       sameAs: [
         "https://www.facebook.com/jonathan.chocados",
         "https://instagram.com/jonathanchocados1",
@@ -74,3 +74,4 @@ export default function RootLayout({
     </html>
   )
 }
+
