@@ -32,7 +32,7 @@ export function Footer() {
         className="flex items-center gap-2 hover:text-amber-400 transition"
       >
         <Phone size={16} />
-        +56 9 4474 0997
+        +56 9 7860 5469
       </a>
     </li>
 
@@ -43,7 +43,7 @@ export function Footer() {
         className="flex items-center gap-2 hover:text-amber-400 transition"
       >
         <MessageCircle size={16} />
-        +56 9 7860 5469 (WhatsApp)
+          +56 9 4474 0997 (WhatsApp)
       </a>
     </li>
 
@@ -59,7 +59,7 @@ export function Footer() {
 
      <li>
       <a
-        href="https://www.facebook.com/share/p/16xhojKU5j/"
+        href="https://www.facebook.com/jonathan.chocados"
         className="flex items-center gap-2 hover:text-amber-400 transition"
       >
         <Mail size={16} />
