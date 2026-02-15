@@ -26,7 +26,7 @@ export const cars: Car[] = [
     airbag: "No activó airbag",
     descripcion: "Full. Vehículo de compañía de seguros.",
     nuevo: true,
-    imagenes: [""]
+    imagenes: ["/124.jpeg", "/125.jpeg", "/128.jpeg"]
   },
   {
     id: 2,
@@ -110,7 +110,7 @@ export const cars: Car[] = [
     airbag: "Activó airbag",
     descripcion: "Full. Vehículo de compañía de seguros.",
     nuevo: true,
-    imagenes: ["/21.jpg"]
+    imagenes: ["/21.jpg", "/126.jpeg", "/127.jpeg", "/129.jpeg"]
   },
   {
     id: 8,
@@ -138,7 +138,7 @@ export const cars: Car[] = [
     airbag: "No activó airbag",
     descripcion: "Full. Vehículo de compañía de seguros.",
     nuevo: true,
-    imagenes: ["/29.jpg"]
+    imagenes: ["/29.jpg", "/124.jpeg","/125.jpeg","/128.jpeg"]
   },
   {
     id: 10,
@@ -281,7 +281,7 @@ export const cars: Car[] = [
     airbag: "Activó airbag",
     descripcion: "Full. Vehículo de compañía de seguros.",
     nuevo: true,
-    imagenes: [""]
+    imagenes: ["/120.jpeg","/121.jpeg","/122.jpeg", "/123.jpeg"]
   },
     {
     id: 21,
@@ -294,7 +294,7 @@ export const cars: Car[] = [
     airbag: "No activó airbag",
     descripcion: "Full. Vehículo de compañía de seguros.",
     nuevo: true,
-    imagenes: [""]
+    imagenes: ["/112.jpeg", "/113.jpeg", "/114.jpeg"]
   },
    {
     id: 22,
@@ -307,7 +307,7 @@ export const cars: Car[] = [
     airbag: "No activó airbag",
     descripcion: "Full. Vehículo de compañía de seguros.",
     nuevo: true,
-    imagenes: [""]
+    imagenes: ["/115.jpeg", "/116.jpeg", "/117.jpeg", "/118.jpeg", "/119.jpg"]
   }
 
 ]
