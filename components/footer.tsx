@@ -102,7 +102,7 @@ export function Footer() {
 
         <div className="mt-6 rounded-xl overflow-hidden border border-neutral-800">
   <iframe
-    src="https://www.google.com/maps/place/33%C2%B040'44.5%22S+70%C2%B051'04.0%22W/@-33.6790183,-70.8536717,17z/data=!4m4!3m3!8m2!3d-33.6790183!4d-70.8510968?hl=es&entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D"
+    src="https://www.google.com/maps?q=LATITUD,LONGITUD&output=embed"
     width="100%"
     height="200"
     loading="lazy"
@@ -119,4 +119,5 @@ export function Footer() {
     </footer>
   )
 }
+
 
