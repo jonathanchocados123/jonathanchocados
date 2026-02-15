@@ -265,7 +265,25 @@ export default function Home() {
 
     <p>✅ Todos funcionando</p>
     <p>🚛 Contamos con servicio de grúa</p>
-    <p>📱 Videos publicados en Instagram y TikTok @jonathanchocados1</p>
+
+<p>
+  📱 Videos publicados en{" "}
+  <a
+    href="https://instagram.com/jonathanchocados1"
+    target="_blank"
+    className="text-amber-400 hover:underline"
+  >
+    Instagram
+  </a>{" "}
+  y{" "}
+  <a
+    href="https://www.tiktok.com/@jonathanchocados1"
+    target="_blank"
+    className="text-amber-400 hover:underline"
+  >
+    TikTok @jonathanchocados1
+  </a>
+</p>
 
     <div className="pt-4 text-sm text-neutral-400 space-y-1">
       <p>✔ Valores incluyen transferencia</p>
