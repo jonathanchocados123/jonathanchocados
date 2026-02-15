@@ -1,5 +1,119 @@
+"use client"
+
 import { cars } from "@/lib/car-data"
 import { Hero } from "@/components/hero"
+import React, { useState } from "react"
+
+const CarItem = ({ car }: { car: any }) => {
+
+  const [index, setIndex] = React.useState(0)
+
+  return (
+    <div className="bg-neutral-900 rounded-xl overflow-hidden border border-neutral-800 hover:border-amber-500 transition">
+      
+      <div className="relative h-56 overflow-hidden">
+        <img
+          src={car.imagenes[index]}
+          alt={`${car.marca} ${car.modelo}`}
+          className="h-full w-full object-cover transition-all duration-500"
+        />
+
+        {car.imagenes.length > 1 && (
+          <>
+            <button
+              onClick={() =>
+                setIndex(index === 0 ? car.imagenes.length - 1 : index - 1)
+              }
+              className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/60 text-white px-2 py-1 rounded"
+            >
+              ‹
+            </button>
+
+            <button
+              onClick={() =>
+                setIndex(index === car.imagenes.length - 1 ? 0 : index + 1)
+              }
+              className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/60 text-white px-2 py-1 rounded"
+            >
+              ›
+            </button>
+          </>
+        )}
+      </div>
+
+<div className="p-6 space-y-3">
+
+  {car.nuevo && (
+    <span className="inline-block bg-amber-500 text-black text-xs font-bold px-2 py-1 rounded">
+      NUEVO INGRESO
+    </span>
+  )}
+
+  <h3 className="text-xl font-semibold">
+    {car.marca} {car.modelo}
+  </h3>
+
+  <p className="text-sm text-neutral-400">
+    Año: {car.año}
+  </p>
+
+  <p className="text-2xl font-bold text-amber-400">
+    {car.precio}
+  </p>
+
+  {car.kilometraje && (
+    <p className="text-sm text-neutral-400">
+      Kilometraje: {car.kilometraje}
+    </p>
+  )}
+
+  {car.transmision && (
+    <p className="text-sm text-neutral-400">
+      Transmisión: {car.transmision}
+    </p>
+  )}
+
+  {car.estado && (
+    <p className="text-sm text-neutral-400">
+      Estado: {car.estado}
+    </p>
+  )}
+
+  {car.airbag && (
+    <p className="text-sm text-neutral-400">
+      Airbag: {car.airbag}
+    </p>
+  )}
+
+  {car.descripcion && (
+    <p className="text-sm text-neutral-300 pt-2 border-t border-neutral-800">
+      {car.descripcion}
+    </p>
+  )}
+
+  <div className="flex gap-3 pt-4">
+    <a
+      href="https://wa.me/56944740997"
+      target="_blank"
+      className="flex items-center gap-2 px-4 py-2 rounded-md bg-amber-400 text-black text-sm font-medium hover:bg-amber-300"
+    >
+      <img src="/what.gif" alt="WhatsApp" className="w-5 h-5" />
+      WhatsApp
+    </a>
+
+    <a
+      href="mailto:info@chocadosjonathan.cl"
+      className="px-4 py-2 rounded-md border border-white/40 text-sm hover:bg-white hover:text-black transition"
+    >
+      ✉️ Email
+    </a>
+  </div>
+
+</div>
+
+    </div>
+  )
+}
 
 
 export default function Home() {
@@ -13,6 +127,10 @@ export default function Home() {
   <h1 className="text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 bg-clip-text text-transparent">
     CHOCADOS JONATHAN CHOCADOS
   </h1>
+
+    <h2 className="text-3xl font-semibold mb-4 text-amber-400">
+  MÁS DE 15 AÑOS DE EXPERIENCIA
+</h2>
 
   <p className="text-xl text-neutral-200 mb-4">
     Venta de vehículos chocados
@@ -30,6 +148,7 @@ export default function Home() {
 <section className="py-24 px-6 max-w-6xl mx-auto grid gap-12 md:grid-cols-2">
 
   <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8">
+    
     <h2 className="text-3xl font-semibold mb-4 text-amber-400">
       Nuestra Misión
     </h2>
@@ -56,6 +175,18 @@ export default function Home() {
     </p>
   </div>
 
+</section>
+
+<section id="catalogo" className="py-24 px-6 max-w-7xl mx-auto">
+  <h2 className="text-4xl font-semibold mb-16 text-center bg-gradient-to-r from-amber-400 to-yellow-500 bg-clip-text text-transparent">
+    Catálogo de Vehículos
+  </h2>
+
+  <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+    {cars.map((car) => (
+      <CarItem key={car.id} car={car} />
+    ))}
+  </div>
 </section>
 
 
@@ -124,64 +255,29 @@ export default function Home() {
 
 
       {/* CATÁLOGO */}
-      <section id="catalogo" className="py-24 px-6 max-w-7xl mx-auto">
-        <h2 className="text-4xl font-semibold mb-16 text-center bg-gradient-to-r from-amber-400 to-yellow-500 bg-clip-text text-transparent">
-          Catálogo de Vehículos
-        </h2>
 
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-          {cars.map((car, index) => {
-            const imageNumber = (index % 11) + 1
+      <section className="text-center max-w-4xl mx-auto px-6 mb-16">
+  <div className="bg-neutral-900/70 border border-neutral-800 rounded-xl p-8 space-y-3 text-neutral-300">
 
-            return (
-              <div
-                key={car.id}
-                className="bg-neutral-900 rounded-xl overflow-hidden border border-neutral-800 hover:border-amber-500 transition"
-              >
-                <div className="h-56 overflow-hidden">
-                  <img
-                    src={`/${imageNumber}.jpg`}
-                    alt={`${car.marca} ${car.modelo}`}
-                    className="h-full w-full object-cover hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
+    <p className="text-lg font-semibold text-amber-400">
+      🚘 19 Vehículos Disponibles
+    </p>
 
-                <div className="p-6 space-y-3">
-                  <h3 className="text-xl font-semibold">
-                    {car.marca} {car.modelo}
-                  </h3>
+    <p>✅ Todos funcionando</p>
+    <p>🚛 Contamos con servicio de grúa</p>
+    <p>📱 Videos publicados en Instagram y TikTok @jonathanchocados1</p>
 
-                  <p className="text-sm text-neutral-400">
-                    Año {car.año}
-                  </p>
+    <div className="pt-4 text-sm text-neutral-400 space-y-1">
+      <p>✔ Valores incluyen transferencia</p>
+      <p>✔ Vehículos se venden tal cual están chocados</p>
+      <p>✔ Pueden revisarse completamente antes de comprar</p>
+      <p>✔ Sin responsabilidad una vez retirado del recinto</p>
+    </div>
 
-                  <p className="text-2xl font-bold text-amber-400">
-                    {car.precio}
-                  </p>
+  </div>
+</section>
 
-                  <div className="flex gap-3 pt-4">
-                    <a
-                      href="https://wa.me/56944740997"
-                      target="_blank"
-                      className="flex items-center gap-2 px-4 py-2 rounded-md bg-amber-400 text-black text-sm font-medium hover:bg-amber-300"
-                    >
-                      <img src="/what.gif" alt="WhatsApp" className="w-5 h-5" />
-                      WhatsApp
-                    </a>
-
-                    <a
-                      href="mailto:info@chocadosjonathan.cl"
-                      className="px-4 py-2 rounded-md border border-white/40 text-sm hover:bg-white hover:text-black transition"
-                    >
-                      ✉️ Email
-                    </a>
-                  </div>
-                </div>
-              </div>
-            )
-          })}
-        </div>
-      </section>
+     
 
       {/* TESTIMONIOS */}
     <section id="testimonios" className="py-24 px-6 max-w-6xl mx-auto text-center">
