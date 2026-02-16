@@ -6,7 +6,7 @@ import { Footer } from "@/components/footer"
 
 export const metadata = {
    metadataBase: new URL("https://chocadosjonathanchocados.com"),
-  title: "Chocados Jonathan Chocados |  Venta de Vehículos Chocados",
+ title: "Chocados Jonathan Chocados | Venta de Vehículos Chocados en Lonquén, Santiago",
   description:
     "Chocados Jonathan Chocados en Lonquén. venta de vehículos chocados. Servicio de grúa y atención personalizada.",
   keywords: [
@@ -79,3 +79,4 @@ export default function RootLayout({
     </html>
   )
 }
+
