@@ -321,7 +321,36 @@ export const cars: Car[] = [
     descripcion: "Full. Vehículo de compañía de seguros.",
     nuevo: true,
     imagenes: ["/CHANGANCX70.jpeg"]
+  },
+   {
+    id: 23,
+    marca: "suzuki ",
+    modelo: "swift (automatico)",
+    año: 2018,
+    precio: "5.490.000 ",
+    kilometraje: "50 mil km",
+    estado: "Funcionando",
+    airbag: "No activó airbag",
+    descripcion: "Full(automatico)
+    . Vehículo de compañía de seguros.",
+    nuevo: true,
+    imagenes: [""]
+  },
+   {
+    id: 23,
+    marca: "suzuki ",
+    modelo: "swift (automatico)",
+    año: 2018,
+    precio: "5.490.000 ",
+    kilometraje: "50 mil km",
+    estado: "Funcionando",
+    airbag: "No activó airbag",
+    descripcion: "Full(automatico). Vehículo de compañía de seguros.",
+    nuevo: true,
+    imagenes: ["swiftazul.jpeg"]
   }
 
+
 ]
+
 
