@@ -137,7 +137,7 @@ export default function Home() {
   </p>
 
   <p className="text-neutral-400 max-w-3xl mx-auto">
-    Especialistas en devolverle valor, seguridad y estética a tu vehículo.
+    Especialistas en vehiculos chocados.
     Contamos con servicio de grúa y atención personalizada en todo el proceso.
   </p>
 </section>
@@ -336,4 +336,5 @@ export default function Home() {
     </main>
   )
 }
+
 
