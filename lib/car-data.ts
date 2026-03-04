@@ -308,6 +308,20 @@ export const cars: Car[] = [
     descripcion: "Full. Vehículo de compañía de seguros.",
     nuevo: true,
     imagenes: ["/115.jpeg", "/116.jpeg", "/117.jpeg", "/118.jpeg", "/119.jpg"]
+  },
+   {
+    id: 23,
+    marca: "PRUEBA CHANGAN",
+    modelo: "Wall wingle 5 (Diésel)",
+    año: 2018,
+    precio: "5.990.000 ",
+    kilometraje: "70 mil km",
+    estado: "Funcionando",
+    airbag: "No activó airbag",
+    descripcion: "Full. Vehículo de compañía de seguros.",
+    nuevo: true,
+    imagenes: ["/CHANGANCX70.jpeg"]
   }
 
 ]
+
