@@ -26,7 +26,7 @@ export const cars: Car[] = [
     airbag: "No activó airbag",
     descripcion: "Full cuero. La compañía de seguros pagó 13,5millones al dueño..",
     nuevo: true,
-    imagenes: ["/1.jpg", "/2.jpg", "/3.jpg, "/4.jpg", "/5.jpg"]
+    imagenes: ["/1.jpg", "/2.jpg", "/3.jpg", "/4.jpg", "/5.jpg"]
   },
   {
     id: 2,
@@ -193,7 +193,7 @@ export const cars: Car[] = [
     airbag: "No activó airbag",
     descripcion: "Full. La compañía de seguros pagó 9,5millones al dueño.",
     nuevo: true,
-    imagenes: ["/45.jpg","/46.jpg","/47.jpg", "/48.jpg"]
+    imagenes: ["/54.jpg","/55.jpg","/56.jpg", "/57.jpg", "/58.jpg"]
   },
    {
     id: 14,
@@ -212,6 +212,7 @@ export const cars: Car[] = [
   
 
 ]
+
 
 
 
