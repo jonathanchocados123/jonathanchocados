@@ -42,22 +42,9 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/10.jpg", "/11.jpg", "/12.jpg", "/13.jpg"]
   },
+ 
   {
     id: 3,
-    marca: "Toyota",
-    modelo: "4Runner",
-    año: 2007,
-    precio: "$6.490.000",
-    kilometraje: "250mil km",
-    transmision: "Automático",
-    estado: "Se va andando",
-    airbag: "No activó airbag",
-    descripcion: "La compañía de seguros pagó 11millones al dueño.",
-    nuevo: true,
-    imagenes: ["/6.jpg", "/7.jpg", "/8.jpg", "/9.jpg"]
-  },
-  {
-    id: 4,
     marca: "Jaguar",
     modelo: "F-Pace 20D(DIESEL)",
     año: 2018,
@@ -71,7 +58,7 @@ export const cars: Car[] = [
     imagenes: ["/14.jpg","/15.jpg","/16.jpg", "/17.jpg", "/18.jpg"]
   },
   {
-    id: 5,
+    id: 4,
     marca: "Ssangyong",
     modelo: "Rexton",
     año: 2017,
@@ -85,7 +72,7 @@ export const cars: Car[] = [
     imagenes: ["/19.jpg","/20.jpg","/21.jpg", "/22.jpg"]
   },
   {
-    id: 6,
+    id: 5,
     marca: "Jeep",
     modelo: "Compass",
     año: 2021,
@@ -99,7 +86,7 @@ export const cars: Car[] = [
     imagenes: ["/23.jpg","/24.jpg","/25.jpg", "/26.jpg"]
   },
   {
-    id: 7,
+    id: 6,
     marca: "Suzuki",
     modelo: "VGran Nomade",
     año: 2023,
@@ -113,7 +100,7 @@ export const cars: Car[] = [
     imagenes: ["/27.jpg", "/28.jpg", "/29.jpg", "/30.jpg", "/31.jpg"]
   },
   {
-    id: 8,
+    id: 7,
     marca: "Honda",
     modelo: "civic",
     año: 2017,
@@ -126,22 +113,9 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/32.jpg","/33.jpg","/34.jpg", "/35.jpg", "/36.jpg"]
   },
+ 
   {
-    id: 9,
-    marca: "Peugeot",
-    modelo: "2008",
-    año: 2019,
-    precio: "$5.490.000",
-    kilometraje: "130mil kilómetros ",
-    transmision: "-",
-    estado: "Se va andando",
-    airbag: "No activó airbag",
-    descripcion: "Full (DIESEL). La compañía de seguros pagó 9,5millones al dueño.",
-    nuevo: true,
-    imagenes: ["/37.jpg", "/38.jpg","/39.jpg","/40.jpg", "/41.jpg"]
-  },
-  {
-    id: 10,
+    id: 8,
     marca: "Nissan",
     modelo: "Qashqai",
     año: 2016,
@@ -155,7 +129,7 @@ export const cars: Car[] = [
     imagenes: ["/42.jpg","/43.jpg","/44.jpg", "/45.jpg"]
   },
   {
-    id: 11,
+    id: 9,
     marca: "Jac",
     modelo: "Js4",
     año: 2022,
@@ -168,7 +142,7 @@ export const cars: Car[] = [
     imagenes: ["/46.jpg","/47.jpg","/48.jpg", "/49.jpg"]
   },
    {
-    id: 12,
+    id: 10,
     marca: "Chery",
     modelo: "Tiggo 2",
     año: 2022,
@@ -182,7 +156,7 @@ export const cars: Car[] = [
     imagenes: ["/50.jpg","/51.jpg","/52.jpg", "/53.jpg"]
   },
    {
-    id: 13,
+    id: 11,
     marca: "Mazda",
     modelo: "2 sedan",
     año: 2016,
@@ -196,7 +170,7 @@ export const cars: Car[] = [
     imagenes: ["/54.jpg","/55.jpg","/56.jpg", "/57.jpg", "/58.jpg"]
   },
    {
-    id: 14,
+    id: 12,
     marca: "Ford",
     modelo: "F-150 Platinum",
     año: 2015,
@@ -212,6 +186,7 @@ export const cars: Car[] = [
   
 
 ]
+
 
 
 
