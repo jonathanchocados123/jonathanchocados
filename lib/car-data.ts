@@ -181,7 +181,7 @@ export const cars: Car[] = [
     descripcion: "Full,cuero,techo. Vehículo de particular (Ojo vehículo sin pérdida) (Se recibe vehículo solo por esta unidad) Valor comercial 20millones ",
     nuevo: true,
     imagenes: ["/5.GIF","/59.jpg","/60.jpg","/61.jpg", "/62.jpg","/63.jpg"]
-   ,
+   },
   {
     id: 13,
     marca: "Volkswagen",
@@ -293,9 +293,6 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/1.GIF","/cerato.jpg","/cerato-1.jpg", "/cerato-2.jpg", "/cerato-3.jpg","/cerato-4.jpg"]
   }
-
-  
-  
 
 ]
 
