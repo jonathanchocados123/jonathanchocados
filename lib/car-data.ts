@@ -69,7 +69,7 @@ export const cars: Car[] = [
     airbag: "Activo airbag",
     descripcion: "La compañía de seguros pagó 10millones al dueño.",
     nuevo: true,
-    imagenes: [/19.jpg","/20.jpg","/21.jpg","/22.jpg"]
+    imagenes: ["/19.jpg","/20.jpg","/21.jpg","/22.jpg"]
   },
   {
     id: 5,
