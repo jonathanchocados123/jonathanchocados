@@ -84,6 +84,7 @@ export const cars: Car[] = [
     descripcion: "La compañía de seguros pagó 8,5 millones al dueño.",
     nuevo: true,
     imagenes: ["/23.jpg","/24.jpg","/25.jpg","/26.jpg","/mgzs.JPG"],
+  },
   {
     id: 6,
     marca: Nissan
