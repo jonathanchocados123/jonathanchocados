@@ -166,7 +166,7 @@ export const cars: Car[] = [
     airbag: "Activó airbag",
     descripcion: "Full,cuero,techo. Vehículo de particular (Ojo vehículo sin pérdida) (Se recibe vehículo solo por esta unidad) Valor comercial 20millones ",
     nuevo: true,
-    imagenes: "/59.jpg","/60.jpg","/61.jpg", "/62.jpg","/63.jpg"]
+    imagenes: ["/59.jpg","/60.jpg","/61.jpg", "/62.jpg","/63.jpg"]
    },
   {
     id: 12,
