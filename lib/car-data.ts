@@ -83,13 +83,13 @@ export const cars: Car[] = [
     airbag: "No Activó airbag",
     descripcion: "La compañía de seguros pagó 8,5 millones al dueño.",
     nuevo: true,
-    imagenes: ["/23.jpg","/24.jpg","/25.jpg","/26.jpg","/mgzs.JPG"],
+    imagenes: ["/23.jpg","/24.jpg","/25.jpg","/26.jpg","/mgzs.jpg"],
   },
   {
     id: 6,
     marca: "Nissan",
     modelo: "versa",
-    año: 2025
+    año: 2025,
     precio: "$7.590.000",
     kilometraje: "30 mil kilómetros ",
     estado: "Funcionando",
@@ -186,7 +186,7 @@ export const cars: Car[] = [
     id: 13,
     marca: "Mazda",
     modelo: "3 Sport 2.0",
-    año: 2018
+    año: 2018,
     precio: "$$3.690.000",
     kilometraje: "140 mil km",
     transmision: "Manual",
