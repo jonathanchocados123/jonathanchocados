@@ -87,8 +87,8 @@ export const cars: Car[] = [
   },
   {
     id: 6,
-    marca: Nissan
-    modelo: versa",
+    marca: "Nissan",
+    modelo: "versa",
     año: 2025
     precio: "$7.590.000",
     kilometraje: "30 mil kilómetros ",
