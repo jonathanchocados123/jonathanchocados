@@ -59,17 +59,17 @@ export const cars: Car[] = [
   },
   {
     id: 4,
-    marca: "Volvo",
-    modelo: "S60 T5 AWD",
-    año: 2013,
-    precio: "$5.990.000",
-    kilometraje: "160mil kilómetros",
+    marca: "Chrysler",
+    modelo: "200",
+    año: 2014,
+    precio: "$4.490.000",
+    kilometraje: "70 mil km",
     transmision: "Automático",
-    estado: "Funcionando",
-    airbag: "Activo airbag",
-    descripcion: "La compañía de seguros pagó 9.5 millones al dueño.",
+    estado: "Se va andando",
+    airbag: "No informado",
+    descripcion: "Recuperado de robo. Seguro pagó 8.5 millones.",
     nuevo: true,
-    imagenes: ["/18.jpg","/19.jpg","/20.jpg","/21.jpg","/22.jpg"]
+    imagenes: ["/c200-1.jpg", "/c200-2.jpg", "/c200-3.jpg","/c200-4.jpg"]
   },
   {
     id: 5,
@@ -87,20 +87,6 @@ export const cars: Car[] = [
   },
   {
     id: 6,
-    marca: "Ford",
-    modelo: "Fiesta",
-    año: 2019,
-    precio: "$4.490.000",
-    kilometraje: "70 mil kilómetros ",
-    estado: "Funcionando",
-    airbag: "No activo airbag",
-    descripcion: "La compañía de seguros pagó 9 millones al dueño",
-    nuevo: true,
-    imagenes: ["/27.jpg","/28.jpg","/29.jpg", "/30.jpg"]
-  },
-  
-  {
-    id: 7,
     marca: "Nissan",
     modelo: "Qashqai",
     año: 2016,
@@ -113,21 +99,8 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/42.jpg","/43.jpg","/44.jpg","/45.jpg"]
   },
-  {
-    id: 8,
-    marca: "Jac",
-    modelo: "Js4",
-    año: 2022,
-    precio: "$3.990.000",
-    kilometraje: "60mil kilómetros ",
-    estado: "Funcionando",
-    airbag: "Activo airbag",
-    descripcion: "Full. La compañía de seguros pagó 10millones al dueño.",
-    nuevo: true,
-    imagenes: ["/JacJs43.jpg","/JacJs42.jpg","/JacJs41.jpg","/JacJs4.jpg"]
-  },
-   {
-    id: 9,
+    {
+    id: 7,
     marca: "Chery",
     modelo: "Tiggo 2",
     año: 2022,
@@ -141,7 +114,7 @@ export const cars: Car[] = [
     imagenes: ["/cherytigo2-4.jpg","/cherytigo2-3.jpg","/cherytigo2-2.jpg","/cherytigo2-1.jpg"]
   },
    {
-    id: 10,
+    id: 8,
     marca: "Mazda",
     modelo: "2 sedan",
     año: 2016,
@@ -155,7 +128,7 @@ export const cars: Car[] = [
     imagenes: ["/54.jpg","/55.jpg","/56.jpg","/57.jpg","/58.jpg"]
   },
    {
-    id: 11,
+    id: 9,
     marca: "Ford",
     modelo: "F-150 Platinum",
     año: 2015,
@@ -168,92 +141,36 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/59.jpg","/60.jpg","/61.jpg", "/62.jpg","/63.jpg"]
    },
-  {
-    id: 12,
-    marca: "Volkswagen",
-    modelo: "Saveiro",
-    año: 2018,
-    precio: "$3.690.000",
-    kilometraje: "140 mil km",
-    transmision: "Manual",
-    estado: "Funcionando",
-    airbag: "No activó airbag",
-    descripcion: "Seguro pagó 8.5 millones.",
-    nuevo: true,
-    imagenes: ["/vs.jpg","/vs1.jpg","/vs2.jpg","/vs3.jpg"]
-  },
-  {
-    id: 13,
-    marca: "Mazda",
-    modelo: "3 Sport 2.0",
-    año: 2017,
-    precio: "$6.990.000",
-    kilometraje: "190 mil km",
-    transmision: "Manual",
-    estado: "Se va andando (poco daño)",
-    airbag: "No activó airbag",
-    descripcion: "Seguro pagó 11 millones.",
-    nuevo: true,
-    imagenes: ["/mazda3sport4.jpg","/mazda3sport3.jpg", "/mazda3sport1.jpg", "/mazda3sport.jpg"]
-  },
-   {
-    id: 14,
-    marca: "Chrysler",
-    modelo: "200",
-    año: 2014,
-    precio: "$4.490.000",
-    kilometraje: "70 mil km",
-    transmision: "Automático",
-    estado: "Se va andando",
-    airbag: "No informado",
-    descripcion: "Recuperado de robo. Seguro pagó 8.5 millones.",
-    nuevo: true,
-    imagenes: ["/c200-1.jpg", "/c200-2.jpg", "/c200-3.jpg","/c200-4.jpg"]
-  },
-   {
-    id: 15,
+    {
+    id: 10,
     marca: "Ford",
     modelo: "escape",
     año: 2013,
-    precio: "$4.990.000",
+    precio: "$3.990.000",
     kilometraje: "160 mil km",
     transmision: "Automático",
     estado: "Se va andando",
     airbag: "No activo airbag",
     descripcion: "Seguro pagó 8.5 millones.",
     nuevo: true,
-    imagenes: ["/fordescape4.jpg", "/fordescape3.jpg", "/fordescape2.jpg","/fordescape1.jpg", "fordescape.jpg"]
+    imagenes: ["/fordescape4.jpg", "/fordescape3.jpg", "/fordescape2.jpg","/fordescape1.jpg", "/fordescape.jpg"]
   },
    {
-    id: 16,
+    id: 11,
     marca: "Mazda",
     modelo: "3 Gt",
     año: 2019,
-    precio: "$7.990.000",
+    precio: "$7.590.000",
     kilometraje: "100 mil km",
     transmision: "Manual",
     estado: "Se va andando",
     airbag: "No activo airbag",
     descripcion: "Seguro pagó 12 millones.",
     nuevo: true,
-    imagenes: ["/mazda3gt4.jpg", "/mazda3gt3.jpg", "/mazda3gt2.jpg","/mazda3gt1.jpg", "mazda3gt.jpg"]
+    imagenes: ["/mazda3gt4.jpg", "/mazda3gt3.jpg", "/mazda3gt2.jpg","/mazda3gt1.jpg", "/mazda3gt.jpg"]
   },
    {
-    id: 17,
-    marca: "BMW",
-    modelo: "318i",
-    año: 2016,
-    precio: "$7.990.000",
-    kilometraje: "158 mil km",
-    transmision: "Automático",
-    estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 14 millones.",
-    nuevo: true,
-    imagenes: ["/BMW318i4.jpg", "/BMW318i3.jpg", "/BMW318i2.jpg","/BMW318i1.jpg", "BMW318i.jpg"]
-  },
-  {
-    id: 18,
+    id: 12,
     marca: "Mazda",
     modelo: "Cx5",
     año: 2019,
@@ -264,23 +181,10 @@ export const cars: Car[] = [
     airbag: "Activo airbag de cortina y asiento",
     descripcion: "Seguro pagó 16 millones.",
     nuevo: true,
-    imagenes: ["/MazdaCx53.jpg", "/MazdaCx54.jpg", "/MazdaCx52.jpg","/BMW318i1.jpg", "MazdaCx51.jpg", "MazdaCx5.jpg"]
+    imagenes: ["/MazdaCx53.jpg", "/MazdaCx54.jpg", "/MazdaCx52.jpg", "/MazdaCx51.jpg", "/MazdaCx5.jpg"]
   },
-  {
-    id: 19,
-    marca: "Citroen",
-    modelo: "C4 MHEV(híbrido)",
-    año: 2025,
-    precio: "$11.990.000",
-    kilometraje: "4 mil km",
-    transmision: "Automático",
-    estado: "Se va andando",
-    descripcion: "Seguro pagó 25 millones.",
-    nuevo: true,
-    imagenes: ["/CitroenC44.jpg", "/CitroenC43.jpg", "/CitroenC42.jpg","/CitroenC41.jpg", "CitroenC4.jpg", "MazdaCx5.jpg"]
-  },
-{
-    id: 20,
+ {
+    id: 13,
     marca: "Buggy ",
     modelo: "Can-Am  maverick X3 Turbo",
     año: 2020,
@@ -289,10 +193,10 @@ export const cars: Car[] = [
      estado: "Se va andando",
     descripcion: "Extensiones de puertas.",
     nuevo: true,
-    imagenes: ["/Buggy5.jpg", "/Buggy4.jpg", "/Buggy3.jpg","/Buggy2.jpg", "Buggy1.jpg", "Buggy.jpg"]
+    imagenes: ["/Buggy5.jpg", "/Buggy4.jpg", "/Buggy3.jpg","/Buggy2.jpg", "/Buggy1.jpg", "/Buggy.jpg"]
   },
 {
-    id: 21,
+    id: 14,
     marca: "Renault",
     modelo: "Koleos Privilege 4x4",
     año: 2017,
@@ -303,10 +207,10 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 15 millones.",
     nuevo: true,
-    imagenes: ["/RenaultKoleos4.jpg", "/RenaultKoleos3.jpg", "/RenaultKoleos2.jpg","/RenaultKoleos1.jpg", "RenaultKoleos.jpg"]
+    imagenes: ["/RenaultKoleos4.jpg", "/RenaultKoleos3.jpg", "/RenaultKoleos2.jpg","/RenaultKoleos1.jpg", "/RenaultKoleos.jpg"]
   },
 {
-    id: 22,
+    id: 15,
     marca: "Subaru",
     modelo: "Xv AWD",
     año: 2016,
@@ -320,7 +224,7 @@ export const cars: Car[] = [
     imagenes: ["/SubaruXv2.jpg", "/SubaruXv1.jpg", "/SubaruXv.jpg"]
   },
 {
-    id: 23,
+    id: 16,
     marca: "Subaru",
     modelo: "Outback ",
     año: 2018,
@@ -334,7 +238,7 @@ export const cars: Car[] = [
     imagenes: ["/SubaruOutback3.jpg", "/SubaruOutback.jpg", "/SubaruOutback1.jpg","/SubaruOutback2.jpg"]
   },
 {
-    id: 24,
+    id: 17,
     marca: "Chevrolet",
     modelo: "Cruze ",
     año: 2015,
@@ -348,7 +252,7 @@ export const cars: Car[] = [
     imagenes: ["/ChevroletCruze2.jpg", "/ChevroletCruze1.jpg", "/ChevroletCruze.jpg"]
   },
 {
-    id: 25,
+    id: 18,
     marca: "Subaru",
     modelo: "Forester ",
     año: 2009,
@@ -362,21 +266,7 @@ export const cars: Car[] = [
     imagenes: ["/SubaruForester2.jpg", "/SubaruForester1.jpg", "/SubaruForester.jpg","/SubaruOutback3.jpg"]
   },
 {
-    id: 26,
-    marca: "Volkswagen",
-    modelo: "Virtus ",
-    año: 2021,
-    precio: "$5.990.000",
-    kilometraje: "80 mil km",
-    transmision: "Automático",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 10 millones.",
-    nuevo: true,
-    imagenes: ["/VolkswagenVirtus2.jpg", "/VolkswagenVirtus1.jpg", "/VolkswagenVirtus.jpg"]
-  },
-{
-    id: 27,
+    id: 19,
     marca: "Mazda",
     modelo: "Cx5 R ",
     año: 2016,
@@ -390,40 +280,74 @@ export const cars: Car[] = [
     imagenes: ["/MazdaCx52.jpg", "/MazdaCx51.jpg", "/MazdaCx5.jpg"]
   },
 {
-    id: 28,
-    marca: "Audi",
-    modelo: "A3 1.4Turbo ",
-    año: 2013,
-    precio: "$7.490.000",
-    kilometraje: "120 mil km",
-    transmision: "Manual",
-    estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 10.5 millones.",
-    nuevo: true,
-    imagenes: ["/AudiA32.jpg", "/AudiA31.jpg", "/AudiA3.jpg"]
-  },
-{
-    id: 29,
+    id: 20,
     marca: "Skoda",
     modelo: "Fabia 1.2Turbo ",
     año: 2017,
     precio: "$4.990.000",
     kilometraje: "170 mil km",
-    transmision: "Manuel",
+    transmision: "Manual",
     estado: "Se va andando",
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 8 millones.",
     nuevo: true,
-    imagenes: ["/SkodaFabia3.jpg", "/SkodaFabia2.jpg", "/SkodaFabia1.jpg", "SkodaFabia.jpg"]
+    imagenes: ["/SkodaFabia3.jpg", "/SkodaFabia2.jpg", "/SkodaFabia1.jpg", "/SkodaFabia.jpg"]
+  },
+{
+    id: 21,
+    marca: "Dodge",
+    modelo: "Dakota Sxt ",
+    año: 2011,
+    precio: "$3.990.000",
+    kilometraje: "220 mil km",
+    transmision: "Automática",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 7.5 millones.",
+    nuevo: true,
+    imagenes: ["/5.jpg", "/6.jpg", "/7.jpg", "/8.jpg","/9.jpg"]
+  },
+{
+    id: 22,
+    marca: "Toyota",
+    modelo: "4Runner",
+    año: 2007,
+    precio: "$$5.490.000",
+    kilometraje: "260 mil km",
+    transmision: "Automática",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 9.5 millones.",
+    nuevo: true,
+    imagenes: ["/70.jpg", "/71.jpg", "/72.jpg", "/73.jpg","/74.jpg"]
+  },
+{
+    id: 23,
+    marca: "Skoda",
+    modelo: "Rapid Tsi ",
+    año: 2014,
+    precio: "$3.990.000",
+    kilometraje: "100 mil km",
+    transmision: "Manual",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 7.5 millones.",
+    nuevo: true,
+    imagenes: ["/75.jpg", "/76.jpg", "/77.jpg", "/78.jpg","/79.jpg"]
+  },
+{
+    id: 24,
+    marca: "Volvo",
+    modelo: " S60 T5 AWD",
+    año: 2013,
+    precio: "$5.490.000",
+    kilometraje: "160 mil km",
+    transmision: "Automática 4x4",
+    estado: "Se va andando, poco daño",
+    airbag: "Activo airbag de cortina y asiento",
+    descripcion: "Seguro pagó 9.5 millones.",
+    nuevo: true,
+    imagenes: [ "/80.jpg", "/81.jpg", "/82.jpg","/83.jpg"]
   }
 
 ]
-
-
-
-
-
-
-
-
