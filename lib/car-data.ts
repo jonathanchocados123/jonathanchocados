@@ -319,7 +319,7 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 9.5 millones.",
     nuevo: true,
-    imagenes: ["/70.jpg", "/71.jpg", "/72.jpg", "/73.jpg","/74.jpg"]
+    imagenes: ["/70.jpg", "/71.jpg", "/72.jpg", "/73.jpg"]
   },
 {
     id: 23,
@@ -333,7 +333,7 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 7.5 millones.",
     nuevo: true,
-    imagenes: ["/75.jpg", "/76.jpg", "/77.jpg", "/78.jpg","/79.jpg"]
+    imagenes: ["/75.jpg", "/76.jpg", "/77.jpg", "/78.jpg"]
   },
 {
     id: 24,
@@ -347,7 +347,7 @@ export const cars: Car[] = [
     airbag: "Activo airbag de cortina y asiento",
     descripcion: "Seguro pagó 9.5 millones.",
     nuevo: true,
-    imagenes: [ "/80.jpg", "/81.jpg", "/82.jpg","/83.jpg"]
+    imagenes: [ "/80.jpg", "/81.jpg", "/82.jpg","/83.jpg","/84.jpg"]
   }
 
 ]
