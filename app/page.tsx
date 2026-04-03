@@ -133,12 +133,13 @@ export default function Home() {
 </h2>
 
   <p className="text-xl text-neutral-200 mb-4">
-    Venta de vehículos chocados
+    Autos chocados en venta en Santiago Chile
   </p>
 
   <p className="text-neutral-400 max-w-3xl mx-auto">
-    Especialistas en vehiculos chocados.
-    Contamos con servicio de grúa y atención personalizada en todo el proceso.
+    Venta de autos chocados en Chile, vehículos funcionando y para repuestos.
+    Ubicados en Lonquén, Santiago. Contamos con variedad de autos chocados baratos,
+    camionetas 4x4 y SUV disponibles.
   </p>
 </section>
 
