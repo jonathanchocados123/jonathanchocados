@@ -10,15 +10,18 @@ export const metadata = {
   description:
     "Chocados Jonathan Chocados en Lonquén. venta de vehículos chocados. Servicio de grúa y atención personalizada.",
   keywords: [
+     "autos chocados",
+    "autos chocados chile",
+    "autos chocados santiago",
+    "venta autos chocados",
+    "autos para repuestos",
+    "autos baratos chile",
     "vehículos chocados",
-    "restauración autos chocados",
-    "venta autos chocados Chile",
-    "servicio de grúa Lonquén",
-    "Chocados Jonathan",
+    "autos siniestrados",
   ],
   openGraph: {
     title: "Chocados Jonathan Chocados",
-    description: "Especialistas en vehículos chocados y restaurados",
+    description: "Autos chocados funcionando, baratos y listos para entrega. Santiago - Lonquén.",
     images: ["/videologo.gif"],
     locale: "es_CL",
     type: "website",
