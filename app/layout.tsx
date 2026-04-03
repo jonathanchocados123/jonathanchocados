@@ -6,9 +6,9 @@ import { Footer } from "@/components/footer"
 
 export const metadata = {
    metadataBase: new URL("https://chocadosjonathanchocados.com"),
- title: "Chocados Jonathan Chocados | Venta de Vehículos Chocados en Lonquén, Santiago",
+ title: "Chocados Jonathan Chocados | Venta de Vehículos Chocados Baratos en Lonquén, Santiago",
   description:
-    "Chocados Jonathan Chocados en Lonquén. venta de vehículos chocados. Servicio de grúa y atención personalizada.",
+    "Chocados Jonathan Chocados en Lonquén. Venta de autos chocados en Santiago, Chile. Vehículos funcionando, para uso o repuestos. Precios baratos, entrega inmediata en Lonquén.",
   keywords: [
      "autos chocados",
     "autos chocados chile",
