@@ -73,17 +73,17 @@ export const cars: Car[] = [
   },
    {
     id: 5,
-    marca: "Nissan",
-    modelo: "Qashqai",
-    año: 2016,
-    precio: "$4.890.000",
-    kilometraje: "100mil kilómetros ",
+    marca: "Skoda",
+    modelo: "Fabia 1.2 turbo",
+    año: 2017,
+    precio: "$3.890.000",
+    kilometraje: "170mil kilómetros ",
     transmision: "(Manual)",
     estado: "Funcionando",
-    airbag: "Activó airbag",
-    descripcion: "Full. La compañía de seguros pagó 10millones al dueño.",
+    airbag: "No Activó airbag",
+    descripcion: "Full. La compañía de seguros pagó 8 millones al dueño.",
     nuevo: true,
-    imagenes: ["/42.jpg","/43.jpg","/44.jpg","/45.jpg"]
+    imagenes: ["/SkodaFabia3.jpg", "/SkodaFabia2.jpg", "/SkodaFabia1.jpg", "/SkodaFabia.jpg"]
   },
     {
     id: 6,
@@ -129,20 +129,6 @@ export const cars: Car[] = [
    },
     {
     id: 9,
-    marca: "Mazda",
-    modelo: "3 Gt",
-    año: 2019,
-    precio: "$6.890.000",
-    kilometraje: "100 mil km",
-    transmision: "Manual",
-    estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 12 millones.",
-    nuevo: true,
-    imagenes: ["/mazda3gt4.jpg", "/mazda3gt3.jpg", "/mazda3gt2.jpg","/mazda3gt1.jpg", "/mazda3gt.jpg"]
-  },
-  {
-    id: 10,
     marca: "Buggy ",
     modelo: "Can-Am  maverick X3 Turbo",
     año: 2020,
@@ -154,25 +140,11 @@ export const cars: Car[] = [
     imagenes: ["/Buggy5.jpg", "/Buggy4.jpg", "/Buggy3.jpg","/Buggy2.jpg", "/Buggy1.jpg", "/Buggy.jpg"]
   },
 {
-    id: 11,
-    marca: "Renault",
-    modelo: "Koleos Privilege 4x4",
-    año: 2017,
-    precio: "$8.390.000",
-    kilometraje: "140 mil km",
-    transmision: "Automático",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 15 millones.",
-    nuevo: true,
-    imagenes: ["/RenaultKoleos4.jpg", "/RenaultKoleos3.jpg", "/RenaultKoleos2.jpg","/RenaultKoleos1.jpg", "/RenaultKoleos.jpg"]
-  },
-{
-    id: 12,
+    id: 10,
     marca: "Subaru",
     modelo: "Xv AWD",
     año: 2016,
-    precio: "$6.890.000",
+    precio: "$6.590.000",
     kilometraje: "99 mil km",
     transmision: "Manual",
     estado: "Se va andando",
@@ -182,39 +154,11 @@ export const cars: Car[] = [
     imagenes: ["/SubaruXv2.jpg", "/SubaruXv1.jpg", "/SubaruXv.jpg"]
   },
 {
-    id: 13,
-    marca: "Subaru",
-    modelo: "Outback ",
-    año: 2018,
-    precio: "$7.990.000",
-    kilometraje: "170 mil km",
-    transmision: "Automático",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 14 millones.",
-    nuevo: true,
-    imagenes: ["/SubaruOutback3.jpg", "/SubaruOutback.jpg", "/SubaruOutback1.jpg","/SubaruOutback2.jpg"]
-  },
-{
-    id: 14,
-    marca: "Chevrolet",
-    modelo: "Cruze ",
-    año: 2015,
-    precio: "$3.590.000",
-    kilometraje: "116 mil km",
-    transmision: "Manual",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 6.6 millones.",
-    nuevo: true,
-    imagenes: ["/ChevroletCruze2.jpg", "/ChevroletCruze1.jpg", "/ChevroletCruze.jpg"]
-  },
-{
-    id: 15,
+    id: 11,
     marca: "Subaru",
     modelo: "Forester ",
     año: 2009,
-    precio: "$3.490.000",
+    precio: "$3.390.000",
     kilometraje: "210 mil km",
     transmision: "Automático",
     estado: "Se va andando",
@@ -224,11 +168,11 @@ export const cars: Car[] = [
     imagenes: ["/SubaruForester2.jpg", "/SubaruForester1.jpg", "/SubaruForester.jpg","/SubaruOutback3.jpg"]
   },
 {
-    id: 16,
+    id: 12,
     marca: "Mazda",
     modelo: "Cx5 R ",
     año: 2016,
-    precio: "$5.690.000",
+    precio: "$5.590.000",
     kilometraje: "130 mil km",
     transmision: "Manual",
     estado: "Se va andando",
@@ -238,21 +182,7 @@ export const cars: Car[] = [
     imagenes: ["/MazdaCx52.jpg", "/MazdaCx51.jpg", "/MazdaCx5.jpg"]
   },
 {
-    id: 17,
-    marca: "Skoda",
-    modelo: "Fabia 1.2Turbo ",
-    año: 2017,
-    precio: "$3.890.000",
-    kilometraje: "170 mil km",
-    transmision: "Manual",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 8 millones.",
-    nuevo: true,
-    imagenes: ["/SkodaFabia3.jpg", "/SkodaFabia2.jpg", "/SkodaFabia1.jpg", "/SkodaFabia.jpg"]
-  },
-{
-    id: 18,
+    id: 13,
     marca: "Dodge",
     modelo: "Dakota Sxt ",
     año: 2011,
@@ -266,11 +196,11 @@ export const cars: Car[] = [
     imagenes: ["/5.jpg", "/6.jpg", "/7.jpg", "/8.jpg","/9.jpg"]
   },
 {
-    id: 19,
+    id: 14,
     marca: "Mazda",
     modelo: "2 sedan",
     año: 2011,
-    precio: "$2.890.000",
+    precio: "$2.490.000",
     kilometraje: "200mil kilómetros",
     estado: "Se va andando",
     airbag: "Activo airbag",
@@ -278,19 +208,4 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/70.jpg", "/71.jpg", "/72.jpg", "/73.jpg"]
   },
-{
-    id: 20,
-    marca: "Honda",
-    modelo: "Civic",
-    año: 2012,
-    precio: "$3.390.000",
-    kilometraje: "120 mil km",
-    transmision: "Automático",
-    estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 7.5 millones.",
-    nuevo: true,
-    imagenes: ["/75.jpg", "/76.jpg", "/77.jpg", "/78.jpg"]
-  },
-
 ]
