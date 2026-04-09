@@ -3,6 +3,8 @@
 import { cars } from "@/lib/car-data"
 import { Hero } from "@/components/hero"
 import React, { useState } from "react"
+import PromoBar from "@/components/PromoBar"
+import FloatingPromo from "@/components/FloatingPromo"
 
 const CarItem = ({ car }: { car: any }) => {
 
