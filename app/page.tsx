@@ -52,7 +52,7 @@ const CarItem = ({ car }: { car: any }) => {
   )}
 
   <h3 className="text-xl font-semibold">
-    {car.marca} {car.modelo}
+    {car.marca} {car.modelo} en venta
   </h3>
 
   <p className="text-sm text-neutral-400">
