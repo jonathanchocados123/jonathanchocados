@@ -121,6 +121,7 @@ export default function Home() {
     <main className="bg-black text-white">
 
    <Hero /> 
+       <PromoBar />
 
 {/* PRESENTACIÓN */}
 <section className="py-24 px-6 max-w-5xl mx-auto text-center">
@@ -334,6 +335,7 @@ export default function Home() {
 
      
       </section>
+      <FloatingPromo />
     </main>
   )
 }
