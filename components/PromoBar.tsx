@@ -3,6 +3,7 @@
 const PromoBar = () => {
   return (
     <div className="w-full mt-6 mb-6 px-4">
+         <a href="#catalogo" className="block">
       <div className="bg-black border-2 border-red-500 rounded-xl py-5 overflow-hidden shadow-[0_0_25px_rgba(255,0,0,0.7)]">
 
         <div className="flex w-max animate-marquee gap-10">
@@ -18,8 +19,9 @@ const PromoBar = () => {
           </span>
 
         </div>
-
+       
       </div>
+          </a>   
     </div>
   )
 }
