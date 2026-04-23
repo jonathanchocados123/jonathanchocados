@@ -14,13 +14,104 @@ export interface Car {
 }
 
 export const cars: Car[] = [
-   
+    {
+    id: 1,
+    marca: "Toyota",
+    modelo: "Fortuner",
+    año: 2022,
+    precio:"$16.990.000",
+    kilometraje: "70 mil km",
+    transmision: "(Automática)",
+    estado: "Se va andando",
+    airbag: "No Activó airbag",
+    descripcion: "La compañía de seguros pagó 32 millones al dueño.",
+    nuevo: true,
+    imagenes: ["/24.jpg", "/25.jpg", "/26.jpg", "/27.jpg", "/28.jpg", "/29.jpg"]
+  },
+  {
+    id: 2,
+    marca: "Suzuki",
+    modelo: "Fronx (HYBRYD)",
+    año: 2024,
+    precio: "$9.490.000",
+    kilometraje: "40 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 17 millones.",
+    nuevo: true,
+    imagenes: ["/70.jpg", "/71.jpg", "/72.jpg", "/73.jpg", "/74.jpg"]
+  },
+{
+    id: 3,
+    marca: "Jeep",
+    modelo: "Grand Cherokee Limited",
+    año: 2011,
+    precio: "$7.990.000",
+    kilometraje: "149 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 11 millones.",
+    nuevo: true,
+    imagenes: ["/1.jpg", "/2.jpg", "/3.jpg", "/4.jpg", "/10.jpg"]
+  },
+  {
+    id: 4,
+    marca: "Chevrolet",
+    modelo: "Groove Premier",
+    año: 2013,
+    precio: "$7.990.000",
+    kilometraje: "29mil kilómetros",
+    estado: "Se va andando",
+    descripcion: "Seguro pagó 11 millones.",
+    nuevo: true,
+    imagenes: ["/11.jpg", "/12.jpg", "/13.jpg", "/14.jpg", "/15.jpg", "/16.jpg"]
+  },
+  {
+    id: 5,
+    marca: "BMW",
+    modelo: "118i",
+    año: 2018,
+    precio: "$7.590.000",
+    kilometraje: "70mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 13 millones.",
+    nuevo: true,
+    imagenes: ["/34.jpg", "/30.jpg", "/31.jpg", "/32.jpg", "/33.jpg"]
+  },
+  {
+    id: 6,
+    marca: "Chevrolet",
+    modelo: "Spin Premier",
+    año: 2020,
+    precio: "$6.990.000",
+    kilometraje: "86 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 10.5 millones.",
+    nuevo: true,
+    imagenes: ["/35.jpg", "/36.jpg", "/37.jpg", "/38.jpg"]
+  },
+  {
+    id: 7,
+    marca: "Jaguar",
+    modelo: "F-Pace 20D(DIESEL)",
+    año: 2018,
+    precio: "$16.490.000",
+    kilometraje: "80 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 28 millones.",
+    nuevo: true,
+    imagenes: ["/39.jpg", "/40.jpg", "/41.jpg", "/42.jpg", "/43.jpg", "/44.jpg"]
+  },
+  
    {
     id: 1,
     marca: "Peugeot",
     modelo: "3008",
     año: 2020,
-    precio:"$7.990.000",
+    precio:"$6.990.000",
     kilometraje: "70 mil km",
     transmision: "(Automática)",
     estado: "Se va andando",
@@ -29,26 +120,13 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/84.jpg", "/85.jpg", "/86.jpg", "/87.jpg"]
   },
- {
-    id: 2,
-    marca: "Toyota",
-    modelo: "Rav 4",
-    año: 2015,
-    precio:"$5.490.000",
-    kilometraje: "110 mil km",
-    transmision: "(Manual)",
-    estado: "Se va andando",
-    airbag: "No Activó airbag",
-    descripcion: "La compañía de seguros pagó 10 millones al dueño.",
-    nuevo: true,
-    imagenes: ["/24.jpg", "/25.jpg", "/26.jpg", "/27.jpg", "/28.jpg", "/29.jpg"]
-  },
+
    {
     id: 3,
     marca: "Great",
     modelo: "wall 3",
     año: 2019,
-    precio:"$3.790.000",
+    precio:"$2.990.000",
     kilometraje: "80 mil km",
      transmision: "(Manual)",
     estado: "Se va andando",
@@ -126,19 +204,7 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/5.jpg", "/6.jpg", "/7.jpg", "/8.jpg","/9.jpg"]
   },
-{
-    id: 9,
-    marca: "Mazda",
-    modelo: "2 sedan",
-    año: 2011,
-    precio: "$2.490.000",
-    kilometraje: "200mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 6 millones.",
-    nuevo: true,
-    imagenes: ["/70.jpg", "/71.jpg", "/72.jpg", "/73.jpg"]
-  },
+
  
    
 ]
