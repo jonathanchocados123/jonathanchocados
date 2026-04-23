@@ -26,7 +26,7 @@ export const cars: Car[] = [
     airbag: "No Activó airbag",
     descripcion: "La compañía de seguros pagó 32 millones al dueño.",
     nuevo: true,
-    imagenes: ["/24.jpg", "/25.jpg", "/26.jpg", "/27.jpg", "/28.jpg", "/29.jpg"]
+    imagenes: ["/25.jpg", "/24.jpg", "/26.jpg", "/27.jpg", "/28.jpg", "/29.jpg"]
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 17 millones.",
     nuevo: true,
-    imagenes: ["/70.jpg", "/71.jpg", "/72.jpg", "/73.jpg", "/74.jpg"]
+    imagenes: ["/73.jpg", "/70.jpg", "/71.jpg", "/72.jpg", "/74.jpg"]
   },
 {
     id: 3,
@@ -52,7 +52,7 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 11 millones.",
     nuevo: true,
-    imagenes: ["/1.jpg", "/2.jpg", "/3.jpg", "/4.jpg", "/10.jpg"]
+    imagenes: ["/3.jpg", "/1.jpg", "/2.jpg", "/4.jpg", "/10.jpg"]
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ export const cars: Car[] = [
     estado: "Se va andando",
     descripcion: "Seguro pagó 11 millones.",
     nuevo: true,
-    imagenes: ["/11.jpg", "/12.jpg", "/13.jpg", "/14.jpg", "/15.jpg", "/16.jpg"]
+    imagenes: ["/12.jpg", "/11.jpg", "/13.jpg", "/14.jpg", "/15.jpg", "/16.jpg"]
   },
   {
     id: 5,
@@ -148,7 +148,7 @@ export const cars: Car[] = [
     airbag: "No informado",
     descripcion: "Recuperado de robo. Seguro pagó 8.5 millones.",
     nuevo: true,
-    imagenes: ["/c200-1.jpg", "/c200-2.jpg", "/c200-3.jpg","/c200-4.jpg"]
+    imagenes: ["/c200-3.jpg", "/c200-1.jpg", "/c200-2.jpg", "/c200-4.jpg"]
   },
   {
     id: 5,
