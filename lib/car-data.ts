@@ -19,7 +19,7 @@ export const cars: Car[] = [
     marca: "Peugeot",
     modelo: "3008",
     año: 2020,
-    precio: "$6.990.000",
+    precio: "$6.890.000",
     kilometraje: "70 mil kilómetros",
     estado: "Se va andando",
     airbag: "Activo airbag",
@@ -27,26 +27,12 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/106.jpg", "/107.jpg", "/108.jpg"]
   },
- {
+  {
     id: 2,
-    marca: "Ford",
-    modelo: "Explorer (4x4)",
-    año: 2015,
-    precio:"$8.490.000",
-    kilometraje: "210 mil km",
-    transmision: "(Automática)",
-    estado: "Se va andando",
-    airbag: "No Activó airbag",
-    descripcion: "La compañía de seguros pagó 11.5 millones al dueño.",
-    nuevo: true,
-    imagenes: ["/SubaruXv.jpg", "/84.jpg", "/85.jpg", "/86.jpg", "/87.jpg"]
-  },
-   {
-    id: 3,
     marca: "Hyundai",
     modelo: "venue",
     año: 2025,
-    precio: "$6.990.000",
+    precio: "$6.890.000",
     kilometraje: "10 mil kilómetros",
     estado: "Se va andando",
     airbag: "No Activo airbag",
@@ -55,11 +41,11 @@ export const cars: Car[] = [
     imagenes: ["/29.jpg", "/35.jpg", "/36.jpg"]
   },
  {
-    id: 4,
+    id: 3,
     marca: "Hyundai",
     modelo: "verna",
     año: 2022,
-    precio: "$3.990.000",
+    precio: "$3.890.000",
     kilometraje: "90 mil kilómetros",
     estado: "Se va andando",
     airbag: "Activo airbag",
@@ -68,11 +54,11 @@ export const cars: Car[] = [
     imagenes: ["/83.jpg", "/73.jpg", "/70.jpg", "/71.jpg"]
   },
 {
-    id: 5,
+    id: 4,
     marca: "Renault",
     modelo: "Sandero Stepway",
     año: 2011,
-    precio: "$1.990.000",
+    precio: "$1.690.000",
     kilometraje: "140 mil km",
     transmision: "Manual",
     estado: "Se va andando",
@@ -81,25 +67,12 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/72.jpg", "/74.jpg", "/SubaruXv2.jpg", "/SubaruXv1.jpg"]
   },
-  {
-    id: 7,
-    marca: "Kia",
-    modelo: "Rio 5",
-    año: 2018,
-    precio: "$3.990.000",
-    kilometraje: "90mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 9 millones.",
-    nuevo: true,
-    imagenes: ["/34.jpg", "/30.jpg", "/31.jpg"]
-  },
 {
-    id: 8,
+    id: 5,
     marca: "Chevrolet",
     modelo: "traverse",
     año: 2014,
-    precio: "$6.990.000",
+    precio: "$6.790.000",
     kilometraje: "149 mil kilómetros",
     estado: "Se va andando",
     airbag: "No Activo airbag",
@@ -108,11 +81,11 @@ export const cars: Car[] = [
     imagenes: ["/32.jpg", "/33.jpg", "/3.jpg", "/1.jpg", "/2.jpg"]
   },
 {
-    id: 9,
+    id: 6,
     marca: "Haval",
     modelo: "Jolion",
     año: 2021,
-    precio: "$5.990.000",
+    precio: "$5.590.000",
     kilometraje: "40 mil kilómetros",
     estado: "Se va andando",
     airbag: "Activo airbag",
@@ -121,24 +94,11 @@ export const cars: Car[] = [
     imagenes: ["/4.jpg", "/10.jpg", "/100.jpg", "/101.jpg"]
   },
   {
-    id: 10,
-    marca: "Renault",
-    modelo: "symbol",
-    año: 2020,
-    precio: "$3.990.000",
-    kilometraje: "67 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 7.5 millones.",
-    nuevo: true,
-    imagenes: ["/102.jpg", "/103.jpg", "/104.jpg", "/105.jpg"]
-  },
-  {
-    id: 12,
+    id: 7,
     marca: "Hyundai",
     modelo: "Tucson",
     año: 2021,
-    precio: "$6.990.000",
+    precio: "$6.890.000",
     kilometraje: "70 mil kilómetros",
     estado: "Se va andando",
     airbag: "Activo airbag",
@@ -147,7 +107,7 @@ export const cars: Car[] = [
     imagenes: ["/110.jpg", "/111.jpg", "/112.jpg", "/113.jpg"]
   },
   {
-    id: 13,
+    id: 8,
     marca: "Mercedes",
     modelo: "C180",
     año: 2005,
@@ -160,11 +120,11 @@ export const cars: Car[] = [
     imagenes: ["/114.jpg", "/115.jpg", "/116.jpg", "/117.jpg", "/118.jpg"]
   },
   {
-    id: 14,
+    id: 9,
     marca: "Ssangyong",
     modelo: "korando",
     año: 2013,
-    precio: "$3.690.000",
+    precio: "$3.590.000",
     kilometraje: "240 mil kilómetros",
     estado: "Se va andando",
     airbag: "No Activo airbag",
@@ -173,11 +133,11 @@ export const cars: Car[] = [
     imagenes: ["/119.jpg", "/120.jpg", "/121.jpg", "/122.jpg"]
   },
    {
-    id: 15,
+    id: 10,
     marca: "Chevrolet",
     modelo: "Groove Premier",
     año: 2013,
-    precio: "$6.990.000",
+    precio: "$6.890.000",
     kilometraje: "29mil kilómetros",
     estado: "Se va andando",
     descripcion: "Seguro pagó 11 millones.",
@@ -185,11 +145,11 @@ export const cars: Car[] = [
     imagenes: ["/12.jpg", "/11.jpg", "/13.jpg", "/14.jpg", "/15.jpg", "/16.jpg"]
   },
   {
-    id: 16,
+    id: 11,
     marca: "Jaguar",
     modelo: "F-Pace 20D(DIESEL)",
     año: 2018,
-    precio: "$16.490.000",
+    precio: "$16.390.000",
     kilometraje: "80 mil kilómetros",
     estado: "Se va andando",
     airbag: "No Activo airbag",
@@ -198,11 +158,11 @@ export const cars: Car[] = [
     imagenes: ["/39.jpg", "/40.jpg", "/41.jpg", "/42.jpg", "/43.jpg", "/44.jpg"]
   },
   {
-    id: 17,
+    id: 12,
     marca: "Chrysler",
     modelo: "200",
     año: 2014,
-    precio: "$4.390.000",
+    precio: "$4.290.000",
     kilometraje: "70 mil km",
     transmision: "Automático",
     estado: "Se va andando",
@@ -212,11 +172,11 @@ export const cars: Car[] = [
     imagenes: ["/c200-3.jpg", "/c200-1.jpg", "/c200-2.jpg", "/c200-4.jpg"]
   },
   {
-    id: 18,
+    id: 13,
     marca: "Chery",
     modelo: "Tiggo 2",
     año: 2022,
-    precio: "$4.390.000",
+    precio: "$4.290.000",
     kilometraje: "80mil kilómetros",
     transmision: "(Automático)",
     estado: "Funcionando",
@@ -226,11 +186,11 @@ export const cars: Car[] = [
     imagenes: ["/cherytigo2-4.jpg","/cherytigo2-3.jpg","/cherytigo2-2.jpg","/cherytigo2-1.jpg"]
   },
    {
-    id: 19,
+    id: 14,
     marca: "Buggy ",
     modelo: "Can-Am  maverick X3 Turbo",
     año: 2020,
-    precio: "$19.990.000",
+    precio: "$19.890.000",
     kilometraje: "5900 mil km",
      estado: "Se va andando",
     descripcion: "Extensiones de puertas.",
@@ -238,11 +198,11 @@ export const cars: Car[] = [
     imagenes: ["/Buggy5.jpg", "/Buggy4.jpg", "/Buggy3.jpg","/Buggy2.jpg", "/Buggy1.jpg", "/Buggy.jpg"]
   },
  {
-    id: 20,
+    id: 15,
     marca: "Dodge",
     modelo: "Dakota Sxt ",
     año: 2011,
-    precio: "$2.890.000",
+    precio: "$2.790.000",
     kilometraje: "220 mil km",
     transmision: "Automática",
     estado: "Se va andando",
