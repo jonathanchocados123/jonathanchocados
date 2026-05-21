@@ -14,12 +14,77 @@ export interface Car {
 }
 
 export const cars: Car[] = [
-   {
+{
     id: 1,
+    marca: "Bmw",
+    modelo: "114i",
+    año: 2015,
+    precio: "$6.990.000",
+    kilometraje: "88 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "Activo airbag",
+    descripcion: "Seguro pagó 11 millones.",
+    nuevo: true,
+    imagenes: ["/83.jpg", "/73.jpg", "/70.jpg", "/71.jpg"]
+  },
+ {
+    id: 2,
+    marca: "Nissan",
+    modelo: "Kick Advance",
+    año: 2019,
+    precio: "$6.990.000",
+    kilometraje: "38 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 11 millones.",
+    nuevo: true,
+    imagenes: ["59.jpg", "/60.jpg", "/61.jpg", "/62.jpg", "/63.jpg"]
+  },
+  {
+    id: 3,
+    marca: "Peugeot",
+    modelo: "208",
+    año: 2019,
+    precio: "$5.490.000",
+    kilometraje: "200 mil km",
+    estado: "Se va andando",
+    airbag: "Activo airbag",
+    descripcion: "Seguro pagó 9 millones.",
+    nuevo: true,
+    imagenes: ["/72.jpg", "/74.jpg", "/SubaruXv2.jpg", "/SubaruXv1.jpg"]
+  },
+  {
+    id: 4,
+    marca: "Chevrolet",
+    modelo: "Sail",
+    año: 2019,
+    precio: "$4.490.000",
+    kilometraje: "160 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 7 millones.",
+    nuevo: true,
+    imagenes: ["/39.jpg", "/40.jpg", "/41.jpg", "/42.jpg"]
+  },
+   {
+    id: 5,
+    marca: "RAM",
+    modelo: "Van 700",
+    año: 2022,
+    precio: "$4.990.000",
+    kilometraje: "290 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 8 millones.",
+    nuevo: true,
+    imagenes: ["/20.jpg", "/21.jpg", "/22.jpg", "/23.jpg"]
+  },
+  {
+    id: 6,
     marca: "Nissan",
     modelo: "Qashqai",
     año: 2016,
-    precio: "$6.490.000",
+    precio: "$6.390.000",
     kilometraje: "105 mil kilómetros",
     estado: "Se va andando",
     transmision: "Manual",
@@ -29,11 +94,11 @@ export const cars: Car[] = [
     imagenes: ["/110.jpg", "/111.jpg", "/112.jpg", "/113.jpg"]
   },
  {
-    id: 2,
+    id: 7,
     marca: "Chevrolet",
     modelo: "Orlando",
     año: 2015,
-    precio: "$3.890.000",
+    precio: "$3.790.000",
     kilometraje: "170 mil kilómetros",
     transmision: "Manual-Diesel",
     estado: "Se va andando",
@@ -43,11 +108,11 @@ export const cars: Car[] = [
     imagenes: ["/4.jpg", "/10.jpg", "/100.jpg", "/101.jpg"]
   },
  {
-    id: 3,
+    id: 8,
     marca: "Changan",
     modelo: "Cx70 Elite 1.5T",
     año: 2022,
-    precio: "$6.890.000",
+    precio: "$6.790.000",
     transmision: "Manual", 
     kilometraje: "42 mil kilómetros",
     estado: "Se va andando",
@@ -57,42 +122,11 @@ export const cars: Car[] = [
     imagenes: ["24.jpg", "/25.jpg", "/26.jpg", "/27.jpg"]
   },
   {
-    id: 4,
-    marca: "Chevrolet",
-    modelo: "Groove Ltz",
-    año: 2021,
-    precio: "$4.890.000",
-    kilometraje: "50 mil kilómetros",
-    estado: "Se va andando",
-    transmision: "Manual",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 10 millones.",
-    nuevo: true,
-    imagenes: ["30.jpg", "31.jpg", "/34.jpg", "/37.jpg"]
-  },
-  
- 
- {
-    id: 5,
-    marca: "Kia",
-    modelo: "Rio 5",
-    año: 2017,
-    precio: "$4.890.000",
-    kilometraje: "80 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 8.5 millones.",
-    nuevo: true,
-    imagenes: ["/83.jpg", "/73.jpg", "/70.jpg", "/71.jpg"]
-  },
-
- 
-  {
-    id: 6,
+    id: 9,
     marca: "Honda",
     modelo: "Wrv",
     año: 2022,
-    precio: "$6.490.000",
+    precio: "$6.390.000",
     kilometraje: "67 mil kilómetros",
     estado: "Se va andando",
     airbag: "No Activo airbag",
@@ -101,11 +135,11 @@ export const cars: Car[] = [
     imagenes: ["/91.jpg", "/92.jpg", "/93.jpg", "/94.jpg", "/95.jpg"]
   },
   {
-    id: 7,
+    id: 10,
     marca: "Nissan",
     modelo: "Murano",
     año: 2013,
-    precio: "$4.390.000",
+    precio: "$4.290.000",
     kilometraje: "160 mil kilómetros",
     estado: "Se va andando",
     airbag: "activo airbag de cortina y asiento",
@@ -114,11 +148,11 @@ export const cars: Car[] = [
     imagenes: ["/96.jpg", "/97.jpg", "/98.jpg", "/99.jpg"]
   },
   {
-    id: 8,
+    id: 11,
     marca: "Honda",
     modelo: "Hrv",
     año: 2018,
-    precio: "$6.590.000",
+    precio: "$6.490.000",
     kilometraje: "110 mil kilómetros",
     estado: "Se va andando",
     airbag: "No activo airbag",
@@ -128,11 +162,11 @@ export const cars: Car[] = [
   },
 
 {
-    id: 9,
+    id: 12,
     marca: "Volvo",
     modelo: "S60 T3",
     año: 2019,
-    precio: "$7.490.000",
+    precio: "$7.390.000",
     kilometraje: "90 mil kilómetros",
     estado: "Se va andando",
     airbag: "No Activo airbag",
@@ -140,49 +174,7 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/29.jpg", "/35.jpg", "/36.jpg", "126.jpg"]
   },
-    {
-    id: 10,
-    marca: "Great Wall",
-    modelo: "M4",
-    año: 2021,
-    precio: "$4.290.000",
-    kilometraje: "60 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 8 millones.",
-    nuevo: true,
-    imagenes: ["/20.jpg", "/21.jpg", "/22.jpg", "/23.jpg", "24.jpg"]
-  },
-  
- {
-    id: 11,
-    marca: "Nissan",
-    modelo: "Kick Advance",
-    año: 2018,
-    precio: "$5.890.000",
-    kilometraje: "103 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 12 millones.",
-    nuevo: true,
-    imagenes: ["59.jpg", "/60.jpg", "/61.jpg", "/62.jpg", "/63.jpg"]
-  },
-  
   {
-    id: 12,
-    marca: "Renault",
-    modelo: "Sandero Stepway",
-    año: 2011,
-    precio: "$1.490.000",
-    kilometraje: "140 mil km",
-    transmision: "Manual",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 6 millones.",
-    nuevo: true,
-    imagenes: ["/72.jpg", "/74.jpg", "/SubaruXv2.jpg", "/SubaruXv1.jpg"]
-  },
-{
     id: 13,
     marca: "Chevrolet",
     modelo: "traverse",
@@ -195,21 +187,9 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/32.jpg", "/33.jpg", "/3.jpg", "/1.jpg", "/2.jpg"]
   },
+
   {
     id: 14,
-    marca: "Jaguar",
-    modelo: "F-Pace 20D(DIESEL)",
-    año: 2018,
-    precio: "$15.990.000",
-    kilometraje: "80 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 28 millones.",
-    nuevo: true,
-    imagenes: ["/39.jpg", "/40.jpg", "/41.jpg", "/42.jpg", "/43.jpg", "/44.jpg"]
-  },
-  {
-    id: 15,
     marca: "Chrysler",
     modelo: "200",
     año: 2014,
@@ -223,7 +203,7 @@ export const cars: Car[] = [
     imagenes: ["/c200-3.jpg", "/c200-1.jpg", "/c200-2.jpg", "/c200-4.jpg"]
   },
   {
-    id: 16,
+    id: 15,
     marca: "Chery",
     modelo: "Tiggo 2",
     año: 2022,
@@ -237,7 +217,7 @@ export const cars: Car[] = [
     imagenes: ["/cherytigo2-4.jpg","/cherytigo2-3.jpg","/cherytigo2-2.jpg","/cherytigo2-1.jpg"]
   },
    {
-    id: 17,
+    id: 16,
     marca: "Buggy ",
     modelo: "Can-Am  maverick X3 Turbo",
     año: 2020,
@@ -249,7 +229,7 @@ export const cars: Car[] = [
     imagenes: ["/Buggy5.jpg", "/Buggy4.jpg", "/Buggy3.jpg","/Buggy2.jpg", "/Buggy1.jpg", "/Buggy.jpg"]
   },
  {
-    id: 18,
+    id: 17,
     marca: "Dodge",
     modelo: "Dakota Sxt ",
     año: 2011,
