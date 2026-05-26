@@ -16,32 +16,84 @@ export interface Car {
 export const cars: Car[] = [
 {
     id: 1,
-    marca: "Subaru",
-    modelo: "Outback",
-    año: 2022,
-    precio: "$12.990.000",
-    kilometraje: "130 mil kilómetros",
+    marca: "Chevrolet",
+    modelo: "Sail",
+    año: 2025,
+    precio: "$6.990.000",
+    kilometraje: "12 mil kilómetros",
     estado: "Se va andando",
     airbag: "Activo airbag",
-    descripcion: "Seguro pagó 20 millones.",
+    descripcion: "Seguro pagó 12 millones.",
     nuevo: true,
-    imagenes: ["/83.jpg", "/73.jpg", "/70.jpg", "/71.jpg", "/91.jpg", "/92.jpg"]
+    imagenes: ["/83.jpg", "/73.jpg", "/70.jpg", "/71.jpg", "/91.jpg"]
   },
     {
     id: 2,
-    marca: "Mazda",
-    modelo: "Cx5",
-    año: 2022,
-    precio: "$8.990.000",
-    kilometraje: "67 mil kilómetros",
+    marca: "Nissan",
+    modelo: "Versa",
+    año: 2023,
+    precio: "$7.490.000",
+    kilometraje: "40 mil kilómetros",
     estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 17 millones.",
+    airbag: "Activo airbag de cortina",
+    descripcion: "Seguro pagó 12 millones.",
     nuevo: true,
     imagenes: ["/93.jpg", "/94.jpg", "/95.jpg", "30.jpg"]
   },
-      {
+ {
     id: 3,
+    marca: "Suzuki",
+    modelo: "Swift",
+    año: 2016,
+    precio: "$3.990.000",
+    kilometraje: "170 mil kilómetros",
+    estado: "Se va andando, Poco daño",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 6.5 millones.",
+    nuevo: true,
+    imagenes: ["/38.jpg", "/49.jpg", "/44.jpg", "24.jpg"]
+  },
+   {
+    id: 4,
+    marca: "Great Wall",
+    modelo: "Florid",
+    año: 2012,
+    precio: "$2.990.000",
+    kilometraje: "140 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 6 millones.",
+    nuevo: true,
+    imagenes: ["/11.jpg", "/12.jpg", "/13.jpg", "/14.jpg", "/15.jpg"]
+  },
+{
+    id: 5,
+    marca: "Ford",
+    modelo: "Territory Titanium",
+    año: 2023,
+    precio: "$7.990.000",
+    kilometraje: "70 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "Activo airbag",
+    descripcion: "Seguro pagó 13 millones.",
+    nuevo: true,
+    imagenes: ["/45.jpg", "/46.jpg", "/47.jpg", "48.jpg"]
+  },
+ {
+    id: 6,
+    marca: "Chevrolet",
+    modelo: "Groove premier",
+    año: 2024,
+    precio: "$6.990.000",
+    kilometraje: "30 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 12 millones.",
+    nuevo: true,
+    imagenes: ["59.jpg", "/60.jpg", "/61.jpg", "/62.jpg"]
+  },
+  {
+    id: 7,
     marca: "Chevrolet",
     modelo: "Captiva Premier 1.5Turbo",
     año: 2022,
@@ -53,34 +105,10 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["31.jpg", "/34.jpg", "/37.jpg", "/43.jpg"]
   },
+     
+     
       {
-    id: 4,
-    marca: "Toyota",
-    modelo: "Rav 4",
-    año: 2017,
-    precio: "$6.490.000",
-    kilometraje: "180 mil kilómetros",
-    estado: "Se va andando, Poco daño",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 11 millones.",
-    nuevo: true,
-    imagenes: ["/38.jpg", "/49.jpg", "/44.jpg", "24.jpg"]
-  },
-      {
-    id: 5,
-    marca: "Chevrolet",
-    modelo: "Sail Ltz",
-    año: 2026,
-    precio: "$7.490.000",
-    kilometraje: "3 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 14 millones.",
-    nuevo: true,
-    imagenes: ["/11.jpg", "/12.jpg", "/13.jpg", "/14.jpg", "/15.jpg"]
-  },
-      {
-    id: 6,
+    id: 8,
     marca: "Subaru",
     modelo: "Impreza",
     año: 2021,
@@ -92,32 +120,8 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/16.jpg", "/17.jpg", "/18.jpg", "/19.jpg", "/28.jpg"]
   },
-      {
-    id: 7,
-    marca: "Hyundai",
-    modelo: "I20",
-    año: 2023,
-    precio: "$6.990.000",
-    kilometraje: "57 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 11 millones.",
-    nuevo: true,
-    imagenes: ["/45.jpg", "/46.jpg", "/47.jpg", "48.jpg"]
-  },
- {
-    id: 8,
-    marca: "Nissan",
-    modelo: "Kick Advance",
-    año: 2019,
-    precio: "$6.990.000",
-    kilometraje: "38 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 11 millones.",
-    nuevo: true,
-    imagenes: ["59.jpg", "/60.jpg", "/61.jpg", "/62.jpg", "/63.jpg"]
-  },
+      
+
   {
     id: 9,
     marca: "Peugeot",
@@ -131,21 +135,9 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/72.jpg", "/74.jpg", "/SubaruXv2.jpg", "/SubaruXv1.jpg"]
   },
-  {
-    id: 10,
-    marca: "Chevrolet",
-    modelo: "Sail",
-    año: 2019,
-    precio: "$4.490.000",
-    kilometraje: "160 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 7 millones.",
-    nuevo: true,
-    imagenes: ["/39.jpg", "/40.jpg", "/41.jpg", "/42.jpg"]
-  },
+
    {
-    id: 11,
+    id: 10,
     marca: "RAM",
     modelo: "Van 700",
     año: 2022,
@@ -158,7 +150,7 @@ export const cars: Car[] = [
     imagenes: ["/20.jpg", "/21.jpg", "/22.jpg", "/23.jpg"]
   },
   {
-    id: 12,
+    id: 11,
     marca: "Nissan",
     modelo: "Qashqai",
     año: 2016,
@@ -172,7 +164,7 @@ export const cars: Car[] = [
     imagenes: ["/110.jpg", "/111.jpg", "/112.jpg", "/113.jpg"]
   },
  {
-    id: 13,
+    id: 12,
     marca: "Chevrolet",
     modelo: "Orlando",
     año: 2015,
@@ -186,7 +178,7 @@ export const cars: Car[] = [
     imagenes: ["/4.jpg", "/10.jpg", "/100.jpg", "/101.jpg"]
   },
  {
-    id: 14,
+    id: 13,
     marca: "Changan",
     modelo: "Cx70 Elite 1.5T",
     año: 2022,
@@ -200,7 +192,7 @@ export const cars: Car[] = [
     imagenes: ["24.jpg", "/25.jpg", "/26.jpg", "/27.jpg"]
   },
   {
-    id: 15,
+    id: 14,
     marca: "Nissan",
     modelo: "Murano",
     año: 2013,
@@ -213,7 +205,7 @@ export const cars: Car[] = [
     imagenes: ["/96.jpg", "/97.jpg", "/98.jpg", "/99.jpg"]
   },
   {
-    id: 16,
+    id: 15,
     marca: "Honda",
     modelo: "Hrv",
     año: 2018,
@@ -226,7 +218,7 @@ export const cars: Car[] = [
     imagenes: ["/64.jpg", "/65.jpg", "/66.jpg", "/67.jpg", "/68.jpg"]
   },
   {
-    id: 17,
+    id: 16,
     marca: "Volvo",
     modelo: "S60 T3",
     año: 2019,
@@ -239,7 +231,7 @@ export const cars: Car[] = [
     imagenes: ["/29.jpg", "/35.jpg", "/36.jpg", "126.jpg"]
   },
   {
-    id: 18,
+    id: 17,
     marca: "Chevrolet",
     modelo: "traverse",
     año: 2014,
@@ -252,21 +244,7 @@ export const cars: Car[] = [
     imagenes: ["/32.jpg", "/33.jpg", "/3.jpg", "/1.jpg", "/2.jpg"]
   },
   {
-    id: 19,
-    marca: "Chrysler",
-    modelo: "200",
-    año: 2014,
-    precio: "$4.290.000",
-    kilometraje: "70 mil km",
-    transmision: "Automático",
-    estado: "Se va andando",
-    airbag: "No informado",
-    descripcion: "Recuperado de robo. Seguro pagó 8.5 millones.",
-    nuevo: true,
-    imagenes: ["/c200-3.jpg", "/c200-1.jpg", "/c200-2.jpg", "/c200-4.jpg"]
-  },
-  {
-    id: 20,
+    id: 18,
     marca: "Chery",
     modelo: "Tiggo 2",
     año: 2022,
@@ -280,7 +258,7 @@ export const cars: Car[] = [
     imagenes: ["/cherytigo2-4.jpg","/cherytigo2-3.jpg","/cherytigo2-2.jpg","/cherytigo2-1.jpg"]
   },
    {
-    id: 21,
+    id: 19,
     marca: "Buggy ",
     modelo: "Can-Am  maverick X3 Turbo",
     año: 2020,
@@ -292,7 +270,7 @@ export const cars: Car[] = [
     imagenes: ["/Buggy5.jpg", "/Buggy4.jpg", "/Buggy3.jpg","/Buggy2.jpg", "/Buggy1.jpg", "/Buggy.jpg"]
   },
  {
-    id: 22,
+    id: 20,
     marca: "Dodge",
     modelo: "Dakota Sxt ",
     año: 2011,
