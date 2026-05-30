@@ -38,7 +38,7 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 28 millones.",
     nuevo: true,
-    imagenes: ["55.jpg", "/56.jpg", "/57.jpg", "/58.jpg"]
+    imagenes: ["55.jpg", "/56.jpg", "/57.jpg", "/58.jpg", "/102.jpg"]
   },
   {
     id: 3,
@@ -51,7 +51,7 @@ export const cars: Car[] = [
     airbag: "Activo airbag",
     descripcion: "Seguro pagó 15 millones.",
     nuevo: true,
-    imagenes: ["/93.jpg", "/94.jpg", "/95.jpg", "30.jpg"]
+    imagenes: ["/93.jpg", "/94.jpg", "/95.jpg", "/30.jpg"]
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 8 millones.",
     nuevo: true,
-    imagenes: ["/78.jpg", "/79.jpg", "/80.jpg", "81.jpg"]
+    imagenes: ["/78.jpg", "/79.jpg", "/80.jpg", "/81.jpg"]
   },
   {
     id: 5,
@@ -77,7 +77,7 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 4.5 millones.",
     nuevo: true,
-    imagenes: ["/82.jpg", "/84.jpg", "/85.jpg", "86.jpg"]
+    imagenes: ["/82.jpg", "/84.jpg", "/85.jpg"]
   },
   {
     id: 6,
@@ -90,7 +90,7 @@ export const cars: Car[] = [
     airbag: "Np Activo airbag",
     descripcion: "Seguro pagó 11 millones.",
     nuevo: true,
-    imagenes: ["/87.jpg", "/88.jpg", "/89.jpg", "90.jpg"]
+    imagenes: ["/87.jpg", "/88.jpg", "/89.jpg", "/90.jpg", "/86.jpg"]
   },
   {
     id: 7,
@@ -103,7 +103,7 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 6.5 millones.",
     nuevo: true,
-    imagenes: ["/102.jpg", "/103.jpg", "/104.jpg", "105.jpg"]
+    imagenes: ["/103.jpg", "/104.jpg", "/105.jpg", "/106.jpg"]
   },
 {
     id: 8,
