@@ -16,19 +16,97 @@ export interface Car {
 export const cars: Car[] = [
    {
     id: 1,
-    marca: "Jac",
-    modelo: "S2",
-    año: 2018,
-    precio: "$2.990.000",
-    kilometraje: "140 mil kilómetros",
+    marca: "Volkswagen",
+    modelo: "Nivus 1.0 Tsi",
+    año: 2023,
+    precio: "$9.990.000",
+    kilometraje: "89 mil kilómetros",
     estado: "Se va andando",
     airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 7 millones.",
+    descripcion: "Seguro pagó 16 millones.",
     nuevo: true,
-    imagenes: ["55.jpg", "/56.jpg", "/57.jpg", "/58.jpg", "/102.jpg"]
+    imagenes: ["55.jpg", "/56.jpg", "/57.jpg"]
+  },
+    {
+    id: 2,
+    marca: "Suzuki",
+    modelo: "Baleno Glx",
+    año: 2018,
+    precio: "$6.490.000",
+    kilometraje: "80 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 10 millones.",
+    nuevo: true,
+    imagenes: ["/93.jpg", "/94.jpg", "/95.jpg", "/30.jpg"]
+  },
+  {
+    id: 3,
+    marca: "Chevrolet",
+    modelo: "Groove Ltz",
+    año: 2024,
+    precio: "$6.490.000",
+    kilometraje: "41 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 12 millones.",
+    nuevo: true, 
+    imagenes: ["/38.jpg", "/49.jpg", "/44.jpg", "24.jpg", "/92.jpg"]
+  },
+    {
+    id: 4,
+    marca: "Hyundai",
+    modelo: "Tucson",
+    año: 2016,
+    precio: "$7.990.000",
+    kilometraje: "220 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 13 millones.",
+    nuevo: true,
+    imagenes: ["50.jpg", "/51.jpg", "/52.jpg", "/53.jpg", "/84.jpg"]
+  },
+ {
+    id: 5,
+    marca: "Hyundai",
+    modelo: "gran I10 sedan",
+    año: 2019,
+    precio: "$4.990.000",
+    kilometraje: "60 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "Activo airbag",
+    descripcion: "Seguro pagó 8 millones.",
+    nuevo: true,
+    imagenes: ["31.jpg", "/34.jpg", "/37.jpg", "/43.jpg"]
   },
    {
-    id: 2,
+    id: 6,
+    marca: "Toyota",
+    modelo: "Toyota Raize",
+    año: 2023,
+    precio: "$7.990.000",
+    kilometraje: "60 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No Activo airbag",
+    descripcion: "Seguro pagó 12 millones.",
+    nuevo: true,
+    imagenes: ["/58.jpg", "/102.jpg", "/79.jpg", "/80.jpg"]
+  },
+   {
+    id: 7,
+    marca: "Volkswagen",
+    modelo: "Amarok Highline",
+    año: 2019,
+    precio: "$14.490.000",
+    kilometraje: "150 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "Activo airbag de cortina y asiento",
+    descripcion: "Seguro pagó 22 millones.",
+    nuevo: true,
+    imagenes: ["/78.jpg", "/81.jpg"  "/82.jpg", "/85.jpg"  "/87.jpg"]
+  },
+  {
+    id: 8,
     marca: "Mercedes Benz",
     modelo: "ML 350",
     año: 2012,
@@ -41,33 +119,7 @@ export const cars: Car[] = [
     imagenes: ["59.jpg", "/60.jpg", "/61.jpg", "/62.jpg"]
   },
   {
-    id: 3,
-    marca: "Kia",
-    modelo: "K3 Cross At",
-    año: 2025,
-    precio: "$7.490.000",
-    kilometraje: "19 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 15 millones.",
-    nuevo: true,
-    imagenes: ["/93.jpg", "/94.jpg", "/95.jpg", "/30.jpg"]
-  },
-{
-    id: 4,
-    marca: "Kia",
-    modelo: "Cerato Ex",
-    año: 2019,
-    precio: "$6.490.000",
-    kilometraje: "220 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 11 millones.",
-    nuevo: true, 
-    imagenes: ["/38.jpg", "/49.jpg", "/44.jpg", "24.jpg", "/92.jpg"]
-  },
-   {
-    id: 5,
+    id: 9,
     marca: "Volvo",
     modelo: "S 60",
     año: 2016,
@@ -79,22 +131,8 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["54.jpg", "/63.jpg", "/69.jpg", "/75.jpg", "/77.jpg"]
   },
-  {
-    id: 6,
-    marca: "Volkswagen",
-    modelo: "Saveiro",
-    año: 2025,
-    precio: "$5.690.000",
-    kilometraje: "39 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 11 millones.",
-    nuevo: true,
-    imagenes: ["50.jpg", "/51.jpg", "/52.jpg", "/53.jpg"]
-  },
-
 {
-    id: 7,
+    id: 10,
     marca: "Ford",
     modelo: "Territory Titanium",
     año: 2023,
@@ -106,21 +144,9 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/45.jpg", "/46.jpg", "/47.jpg", "48.jpg"]
   },
+ 
   {
-    id: 8,
-    marca: "Chevrolet",
-    modelo: "Captiva Premier 1.5Turbo",
-    año: 2022,
-    precio: "$5.990.000",
-    kilometraje: "50 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 11 millones.",
-    nuevo: true,
-    imagenes: ["31.jpg", "/34.jpg", "/37.jpg", "/43.jpg"]
-  },
-  {
-    id: 9,
+    id: 11,
     marca: "Subaru",
     modelo: "Impreza",
     año: 2021,
@@ -134,7 +160,7 @@ export const cars: Car[] = [
   },
 
    {
-    id: 10,
+    id: 12,
     marca: "RAM",
     modelo: "Van 700",
     año: 2022,
@@ -147,7 +173,7 @@ export const cars: Car[] = [
     imagenes: ["/20.jpg", "/21.jpg", "/22.jpg", "/23.jpg"]
   },
   {
-    id: 11,
+    id: 13,
     marca: "Nissan",
     modelo: "Qashqai",
     año: 2016,
@@ -162,7 +188,7 @@ export const cars: Car[] = [
   },
 
  {
-    id: 12,
+    id: 14,
     marca: "Changan",
     modelo: "Cx70 Elite 1.5T",
     año: 2022,
@@ -176,7 +202,7 @@ export const cars: Car[] = [
     imagenes: ["24.jpg", "/25.jpg", "/26.jpg", "/27.jpg"]
   },
   {
-    id: 13,
+    id: 15,
     marca: "Nissan",
     modelo: "Murano",
     año: 2013,
@@ -189,7 +215,7 @@ export const cars: Car[] = [
     imagenes: ["/96.jpg", "/97.jpg", "/98.jpg", "/99.jpg"]
   },
   {
-    id: 14,
+    id: 16,
     marca: "Honda",
     modelo: "Hrv",
     año: 2018,
@@ -202,7 +228,7 @@ export const cars: Car[] = [
     imagenes: ["/64.jpg", "/65.jpg", "/66.jpg", "/67.jpg", "/68.jpg"]
   },
   {
-    id: 15,
+    id: 17,
     marca: "Volvo",
     modelo: "S60 T3",
     año: 2019,
@@ -215,7 +241,7 @@ export const cars: Car[] = [
     imagenes: ["/29.jpg", "/35.jpg", "/36.jpg", "126.jpg"]
   },
   {
-    id: 16,
+    id: 18,
     marca: "Chevrolet",
     modelo: "traverse",
     año: 2014,
@@ -228,7 +254,7 @@ export const cars: Car[] = [
     imagenes: ["/32.jpg", "/33.jpg", "/3.jpg", "/1.jpg", "/2.jpg"]
   },
   {
-    id: 17,
+    id: 19,
     marca: "Chery",
     modelo: "Tiggo 2",
     año: 2022,
@@ -242,7 +268,7 @@ export const cars: Car[] = [
     imagenes: ["/cherytigo2-4.jpg","/cherytigo2-3.jpg","/cherytigo2-2.jpg","/cherytigo2-1.jpg"]
   },
    {
-    id: 18,
+    id: 20,
     marca: "Buggy ",
     modelo: "Can-Am  maverick X3 Turbo",
     año: 2020,
@@ -254,7 +280,7 @@ export const cars: Car[] = [
     imagenes: ["/Buggy5.jpg", "/Buggy4.jpg", "/Buggy3.jpg","/Buggy2.jpg", "/Buggy1.jpg", "/Buggy.jpg"]
   },
  {
-    id: 19,
+    id: 21,
     marca: "Dodge",
     modelo: "Dakota Sxt ",
     año: 2011,
