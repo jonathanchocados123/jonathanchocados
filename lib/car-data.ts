@@ -52,7 +52,7 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 18 millones.",
     nuevo: true,
-    imagenes: ["54.jpg", "/63.jpg", "/69.jpg", "/75.jpg", "/77.jpg"]
+    imagenes: ["/54.jpg", "/63.jpg", "/69.jpg", "/75.jpg", "/77.jpg"]
   },
   {
     id: 4,
@@ -78,7 +78,7 @@ export const cars: Car[] = [
     airbag: "Activo airbag",
     descripcion: "Seguro pagó 14 millones.",
     nuevo: true,
-    imagenes: ["50.jpg", "/51.jpg", "/52.jpg", "/53.jpg"]
+    imagenes: ["/50.jpg", "/51.jpg", "/52.jpg", "/53.jpg"]
   },
    {
     id: 6,
@@ -88,10 +88,10 @@ export const cars: Car[] = [
     precio: "$7.990.000",
     kilometraje: "70 mil kilómetros",
     estado: "Se va andando",
-    airbag: "Activo airbag de cortina y asiento ",
+    airbag: "Activo airbag de cortina y asiento",
     descripcion: "Seguro pagó 11 millones.",
     nuevo: true,
-    imagenes: ["31.jpg", "/34.jpg", "/37.jpg", "/43.jpg", "/57.jpg"]
+    imagenes: ["/31.jpg", "/34.jpg", "/37.jpg", "/43.jpg", "/57.jpg"]
   },
     {
     id: 7,
@@ -104,7 +104,7 @@ export const cars: Car[] = [
     airbag: "Activo airbag",
     descripcion: "Seguro pagó 7 millones.",
     nuevo: true,
-    imagenes: ["55.jpg", "/56.jpg", "/84.jpg"]
+    imagenes: ["/55.jpg", "/56.jpg", "/84.jpg"]
   },
   {
     id: 8,
@@ -122,7 +122,7 @@ export const cars: Car[] = [
     {
     id: 9,
     marca: "Nissan",
-    modelo: "note",
+    modelo: "Note",
     año: 2014,
     precio: "$3.990.000",
     kilometraje: "90 mil kilómetros",
@@ -168,7 +168,7 @@ export const cars: Car[] = [
     estado: "Se va andando",
     descripcion: "Seguro pagó 9 millones.",
     nuevo: true,
-    imagenes: ["/91.jpg", "39.jpg", "/40.jpg", "/41.jpg", "/42.jpg", "/76.jpg"]
+    imagenes: ["/91.jpg", "/39.jpg", "/40.jpg", "/41.jpg", "/42.jpg", "/76.jpg"]
   },
      {
     id: 13,
@@ -207,7 +207,7 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 12 millones.",
     nuevo: true, 
-    imagenes: ["/38.jpg", "/49.jpg", "/44.jpg", "24.jpg", "/92.jpg"]
+    imagenes: ["/38.jpg", "/49.jpg", "/44.jpg", "/24.jpg", "/92.jpg"]
   },
    {
     id: 16,
@@ -220,7 +220,7 @@ export const cars: Car[] = [
     airbag: "Activo airbag de cortina y asiento",
     descripcion: "Seguro pagó 22 millones.",
     nuevo: true,
-    imagenes: ["/78.jpg", "/81.jpg"  "/82.jpg", "/85.jpg"  "/87.jpg"]
+    imagenes: ["/78.jpg", "/81.jpg",  "/82.jpg", "/85.jpg", "/87.jpg"]
   },
   {
     id: 17,
@@ -233,7 +233,7 @@ export const cars: Car[] = [
     airbag: "Activo airbag",
     descripcion: "Seguro pagó 13 millones.",
     nuevo: true,
-    imagenes: ["59.jpg", "/60.jpg", "/61.jpg", "/62.jpg"]
+    imagenes: ["/59.jpg", "/60.jpg", "/61.jpg", "/62.jpg"]
   },
 
 {
@@ -247,7 +247,7 @@ export const cars: Car[] = [
     airbag: "Activo airbag",
     descripcion: "Seguro pagó 13 millones.",
     nuevo: true,
-    imagenes: ["/45.jpg", "/46.jpg", "/47.jpg", "48.jpg"]
+    imagenes: ["/45.jpg", "/46.jpg", "/47.jpg", "/48.jpg"]
   },
   {
     id: 19,
@@ -287,7 +287,7 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 9 millones.",
     nuevo: true,
-    imagenes: ["24.jpg", "/25.jpg", "/26.jpg", "/27.jpg"]
+    imagenes: ["/24.jpg", "/25.jpg", "/26.jpg", "/27.jpg"]
   },
   {
     id: 22,
@@ -297,7 +297,7 @@ export const cars: Car[] = [
     precio: "$4.290.000",
     kilometraje: "160 mil kilómetros",
     estado: "Se va andando",
-    airbag: "activo airbag de cortina y asiento",
+    airbag: "Activo airbag de cortina y asiento",
     descripcion: "Seguro pagó 9 millones.",
     nuevo: true,
     imagenes: ["/96.jpg", "/97.jpg", "/98.jpg", "/99.jpg"]
@@ -313,12 +313,12 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 12 millones.",
     nuevo: true,
-    imagenes: ["/29.jpg", "/35.jpg", "/36.jpg", "126.jpg"]
+    imagenes: ["/29.jpg", "/35.jpg", "/36.jpg", "/126.jpg"]
   },
   {
     id: 24,
     marca: "Chevrolet",
-    modelo: "traverse",
+    modelo: "Traverse",
     año: 2014,
     precio: "$5.990.000",
     kilometraje: "149 mil kilómetros",
@@ -334,7 +334,7 @@ export const cars: Car[] = [
     modelo: "Tiggo 2",
     año: 2022,
     precio: "$4.290.000",
-    kilometraje: "80mil kilómetros",
+    kilometraje: "80 mil kilómetros",
     transmision: "(Automático)",
     estado: "Funcionando",
     airbag: "No activó airbag",
@@ -348,7 +348,7 @@ export const cars: Car[] = [
     modelo: "Can-Am  maverick X3 Turbo",
     año: 2020,
     precio: "$19.890.000",
-    kilometraje: "5900 mil km",
+    kilometraje: "59 mil km",
      estado: "Se va andando",
     descripcion: "Extensiones de puertas.",
     nuevo: true,
