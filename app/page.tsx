@@ -140,7 +140,7 @@ export default function Home() {
   </p>
 
   <p className="text-neutral-400 max-w-3xl mx-auto">
-    Venta de autos chocados en Chile, vehículos funcionando y para repuestos.
+    Venta de autos chocados en Chile, vehículos funcionando.
     Ubicados en Lonquén, Santiago. Contamos con variedad de autos chocados baratos,
     camionetas 4x4 y SUV disponibles.
   </p>
