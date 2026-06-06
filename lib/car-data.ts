@@ -168,7 +168,7 @@ export const cars: Car[] = [
     estado: "Se va andando",
     descripcion: "Seguro pagó 9 millones.",
     nuevo: true,
-    imagenes: ["/91.jpg" "39.jpg", "/40.jpg", "/41.jpg", "/42.jpg", "/76.jpg"]
+    imagenes: ["/91.jpg", "39.jpg", "/40.jpg", "/41.jpg", "/42.jpg", "/76.jpg"]
   },
      {
     id: 13,
