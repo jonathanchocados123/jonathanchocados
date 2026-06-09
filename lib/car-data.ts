@@ -273,7 +273,7 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 8 millones.",
     nuevo: true,
-    imagenes: ["/20.jpg", "/21.jpg", "/22.jpg", "/23.jpg"]
+    imagenes: ["/21.jpg", "/22.jpg", "/23.jpg"]
   },
  {
     id: 21,
@@ -287,7 +287,7 @@ export const cars: Car[] = [
     airbag: "No Activo airbag",
     descripcion: "Seguro pagó 9 millones.",
     nuevo: true,
-    imagenes: ["/24.jpg", "/25.jpg", "/26.jpg", "/27.jpg"]
+    imagenes: ["/25.jpg", "/26.jpg", "/27.jpg"]
   },
   {
     id: 22,
