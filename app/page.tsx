@@ -264,7 +264,7 @@ export default function Home() {
   <div className="bg-neutral-900/70 border border-neutral-800 rounded-xl p-8 space-y-3 text-neutral-300">
 
     <p className="text-lg font-semibold text-amber-400">
-      🚘 19 Vehículos Disponibles
+      🚘 {cars.length} Vehículos Disponibles
     </p>
 
     <p>✅ Todos funcionando</p>
