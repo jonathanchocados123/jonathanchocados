@@ -16,32 +16,97 @@ export interface Car {
 export const cars: Car[] = [
    {
     id: 1,
-    marca: "Nissan",
-    modelo: "kick",
-    año: 2018,
-    precio: "$5.690.000",
-    kilometraje: "100 mil kilómetros",
+    marca: "BMW",
+    modelo: "X1 Sdrive",
+    año: 2020,
+    precio: "$11.690.000",
+    kilometraje: "150 mil kilómetros",
     estado: "Se va andando",
     airbag: "No activo airbag",
-    descripcion: "Seguro pagó 10 millones.",
+    descripcion: "Seguro pagó 21 millones.",
     nuevo: true,
     imagenes: ["/121.jpg", "/122.jpg", "/123.jpg", "/124.jpg", "/93.jpg"]
   },
  {
     id: 2,
-    marca: "Audi",
-    modelo: "a3 Sportback 1.4Turbo",
-    año: 2014,
-    precio: "$7.690.000",
-    kilometraje: "117 mil kilómetros",
+    marca: "Kia",
+    modelo: "Sportage Ex (4x4)",
+    año: 2023,
+    precio: "$12.690.000",
+    kilometraje: "85 mil kilómetros",
     estado: "Se va andando",
-    airbag: "No Activo airbag",
-    descripcion: "Seguro pagó 9.5 millones.",
+    airbag: "Activo airbag",
+    descripcion: "Seguro pagó 25 millones.",
     nuevo: true,
-    imagenes: ["/25.jpg", "/26.jpg", "/27.jpg", "/37.jpg", "/43.jpg"]
+    imagenes: ["/25.jpg", "/26.jpg", "/27.jpg", "/37.jpg"]
+  },
+  {
+    id: 3,
+    marca: "Audi",
+    modelo: "A1 SportBack",
+    año: 2022,
+    precio: "$9.990.000",
+    kilometraje: "30 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "Activo airbag",
+    descripcion: "Seguro pagó 18 millones.",
+    nuevo: true,
+    imagenes: ["/50.jpg", "/51.jpg", "/52.jpg", "/53.jpg"]
+  },
+    {
+    id: 4,
+    marca: "Peugeot",
+    modelo: "3008",
+    año: 2023,
+    precio: "$9.990.000",
+    kilometraje: "64 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 19 millones.",
+    nuevo: true,
+    imagenes: ["/43.jpg", "/94.jpg", "/95.jpg", "/30.jpg"]
+  },
+    {
+    id: 5,
+    marca: "Chevrolet",
+    modelo: "Groove Premier",
+    año: 2021,
+    precio: "$7.990.000",
+    kilometraje: "60 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 11 millones.",
+    nuevo: true,
+    imagenes: ["/64.jpg", "/65.jpg", "/66.jpg", "/67.jpg", "/68.jpg"]
+  },
+    {
+    id: 6,
+    marca: "Toyota",
+    modelo: "Raize",
+    año: 2025,
+    precio: "$7.990.000",
+    kilometraje: "28 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 14 millones.",
+    nuevo: true,
+    imagenes: ["/59.jpg", "/60.jpg", "/61.jpg", "/62.jpg"]
+  },
+    {
+    id: 7,
+    marca: "Audi",
+    modelo: "A1",
+    año: 2013,
+    precio: "$5.490.000",
+    kilometraje: "110 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 9 millones.",
+    nuevo: true,
+    imagenes: ["/58.jpg", "/102.jpg", "/79.jpg", "/80.jpg", "/89.jpg"]
   },
  {
-    id: 3,
+    id: 8,
     marca: "Moto BMW",
     modelo: "G310",
     año: 2026,
@@ -53,7 +118,7 @@ export const cars: Car[] = [
     imagenes: ["/104.jpg", "/105.jpg", "/106.jpg", "/28.jpg"]
   },
 {
-    id: 4,
+    id: 9,
     marca: "Mazda",
     modelo: "CX9 GT",
     año: 2014,
@@ -67,7 +132,7 @@ export const cars: Car[] = [
     imagenes: ["/110.jpg", "/113.jpg", "/115.jpg", "/116.jpg", "/117.jpg"]
   },
  {
-    id: 5,
+    id: 10,
     marca: "Kia",
     modelo: "Sportage",
     año: 2017,
@@ -80,7 +145,7 @@ export const cars: Car[] = [
     imagenes: ["/12.jpg", "/13.jpg", "/14.jpg", "/15.jpg"]
   },
  {
-    id: 6,
+    id: 11,
     marca: "Ram",
     modelo: "Van 700 Rapid",
     año: 2021,
@@ -93,7 +158,7 @@ export const cars: Car[] = [
     imagenes: ["/54.jpg", "/63.jpg", "/69.jpg", "/75.jpg"]
   },
   {
-    id: 7,
+    id: 12,
     marca: "Renault",
     modelo: "Dokker",
     año: 2018,
@@ -106,7 +171,7 @@ export const cars: Car[] = [
     imagenes: ["/118.jpg", "/119.jpg", "/120.jpg"]
   },
  {
-    id: 8,
+    id: 13,
     marca: "Honda",
     modelo: "Pilot Ex",
     año: 2011,
@@ -118,22 +183,8 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/45.jpg", "/46.jpg", "/47.jpg", "/48.jpg"]
   },
-
-  {
-    id: 9,
-    marca: "Peugeot",
-    modelo: "3008",
-    año: 2019,
-    precio: "$6.490.000",
-    kilometraje: "120 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 14 millones.",
-    nuevo: true,
-    imagenes: ["/50.jpg", "/51.jpg", "/52.jpg", "/53.jpg"]
-  },
  {
-    id: 10,
+    id: 14,
     marca: "Chevrolet",
     modelo: "Groove Premier",
     año: 2023,
@@ -146,7 +197,7 @@ export const cars: Car[] = [
     imagenes: ["/90.jpg", "/86.jpg", "/103.jpg"]
   },
   {
-    id: 11,
+    id: 15,
     marca: "Changan",
     modelo: "Alsvin",
     año: 2021,
@@ -159,7 +210,7 @@ export const cars: Car[] = [
     imagenes: ["/83.jpg", "/73.jpg", "/70.jpg", "/71.jpg"]
   },
   {
-    id: 12,
+    id: 16,
     marca: "Volkswagen",
     modelo: "Amarok Highline",
     año: 2019,
@@ -172,7 +223,7 @@ export const cars: Car[] = [
     imagenes: ["/78.jpg", "/81.jpg",  "/82.jpg", "/85.jpg", "/87.jpg"]
   },
   {
-    id: 13,
+    id: 17,
     marca: "Nissan",
     modelo: "Murano",
     año: 2013,
@@ -185,7 +236,7 @@ export const cars: Car[] = [
     imagenes: ["/96.jpg", "/97.jpg", "/98.jpg", "/99.jpg"]
   },
  {
-    id: 14,
+    id: 18,
     marca: "Chery",
     modelo: "Tiggo 2",
     año: 2022,
@@ -199,7 +250,7 @@ export const cars: Car[] = [
     imagenes: ["/cherytigo2-4.jpg","/cherytigo2-3.jpg","/cherytigo2-2.jpg","/cherytigo2-1.jpg"]
   },
    {
-    id: 15,
+    id: 19,
     marca: "Buggy ",
     modelo: "Can-Am  maverick X3 Turbo",
     año: 2020,
@@ -211,7 +262,7 @@ export const cars: Car[] = [
     imagenes: ["/Buggy5.jpg", "/Buggy4.jpg", "/Buggy3.jpg","/Buggy2.jpg", "/Buggy1.jpg", "/Buggy.jpg"]
   },
  {
-    id: 16,
+    id: 20,
     marca: "Dodge",
     modelo: "Dakota Sxt ",
     año: 2011,
