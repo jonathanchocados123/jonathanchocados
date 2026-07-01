@@ -251,7 +251,7 @@ export const cars: Car[] = [
     imagenes: ["/110.jpg", "/113.jpg", "/115.jpg", "/116.jpg", "/117.jpg"]
   },
  {
-    id: 19
+    id: 19,
     marca: "Ram",
     modelo: "Van 700 Rapid",
     año: 2021,
