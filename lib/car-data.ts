@@ -72,7 +72,7 @@ export const cars: Car[] = [
     modelo: "Swift Glx",
     año: 2020,
     precio: "$6.990.000",
-    kilometaje: "39 mil kilómetros",
+    kilometraje: "39 mil kilómetros",
     estado: "Se va andando",
     airbag: "No activo airbag",
     descripcion: "Seguro pagó 10.5 millones.",
