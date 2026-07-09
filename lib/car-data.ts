@@ -55,7 +55,7 @@ export const cars: Car[] = [
     {
     id: 4,
     marca: "Mazda",
-    modelo: "Cx5 blanco",
+    modelo: "Cx5",
     año: 2026,
     precio: "$12.990.000",
     kilometraje: "6 mil kilómetros",
