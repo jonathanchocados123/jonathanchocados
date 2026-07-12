@@ -40,20 +40,7 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/93.jpg", "/29.jpg", "/31.jpg", "/32.jpg"]
   },
- {
-    id: 4,
-    marca: "Peugeot",
-    modelo: "Parnert",
-    año: 2014,
-    precio: "$3.990.000",
-    kilometraje: "220 mil kilómetros",
-    estado: "Se va andando",
-     airbag: "No activo airbag",
-    descripcion: "Seguro pagó 8 millones.",
-    nuevo: true,
-    imagenes: ["/96.jpg", "/97.jpg", "/98.jpg", "/99.jpg"]
-  },
-   {
+  {
     id: 3,
     marca: "Ford",
     modelo: "Territory Titanium",
