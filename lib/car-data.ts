@@ -16,6 +16,97 @@ export interface Car {
 export const cars: Car[] = [
    {
     id: 1,
+    marca: "Mercedes",
+    modelo: "Benz C250 look Amg",
+    año: 2015,
+    precio: "$7.990.000",
+    kilometraje: "120 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 13  millones.",
+    nuevo: true,
+    imagenes: ["/93.jpg", "/29.jpg", "/31.jpg", "/32.jpg", "/95.jpg"]
+  },
+   {
+    id: 2,
+    marca: "Skoda",
+    modelo: "Fabia 1.2Turbo",
+    año: 2017,
+    precio: "$4.490.000",
+    kilometraje: "190 mil kilómetros",
+    estado: "Se va andando",
+     airbag: "No activo airbag",
+    descripcion: "Seguro pagó 9 millones.",
+    nuevo: true,
+    imagenes: ["/58.jpg", "/102.jpg", "/79.jpg", "/49.jpg", "/4.jpg"]
+  },
+  {
+    id: 3,
+    marca: "Chevrolet",
+    modelo: "Sail",
+    año: 2025,
+    precio: "$7.990.000",
+    kilometraje: "24 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 13 millones.",
+    nuevo: true,
+    imagenes: ["/55.jpg", "/110.jpg", "/113.jpg", "/115.jpg", "/116.jpg"]
+  },
+    {
+    id: 4,
+    marca: "Suzuki",
+    modelo: "Grand Vitara Sport Glx",
+    año: 2015,
+    precio: "$4.990.000",
+    kilometraje: "150 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 9 millones.",
+    nuevo: true,
+    imagenes: ["/36.jpg", "/38.jpg", "/39.jpg", "/40.jpg"]
+  },
+  {
+    id: 5,
+    marca: "Mazda",
+    modelo: "6 GT",
+    año: 2016,
+    precio: "$5.990.000",
+    kilometraje: "160 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "Activo airbag de cortina y asiento",
+    descripcion: "Seguro pagó 11 millones.",
+    nuevo: true,
+    imagenes: ["/78.jpg", "/81.jpg",  "/82.jpg", "/85.jpg"]
+  },
+    {
+    id: 6,
+    marca: "Nissan",
+    modelo: "Qashqai",
+    año: 2016,
+    precio: "$6.990.000",
+    kilometraje: "110 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 11 millones.",
+    nuevo: true,
+    imagenes: ["/118.jpg", "/119.jpg", "/120.jpg", "/23.jpg", "/24.jpg"]
+  },
+    {
+    id: 7,
+    marca: "Chevrolet",
+    modelo: "Spark",
+    año: 2020,
+    precio: "$4.590.000",
+    kilometraje: "160 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 8.5 millones.",
+    nuevo: true,
+    imagenes: ["/16.jpg", "/17.jpg", "/18.jpg", "/19.jpg"]
+  },
+   {
+    id: 8,
     marca: "Volvo",
     modelo: "Xc60",
     año: 2016,
@@ -27,21 +118,9 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/67.jpg", "/68.jpg", "/121.jpg", "/122.jpg"]
   },
- {
-    id: 2,
-    marca: "Hyundai",
-    modelo: "Grand I10",
-    año: 2017,
-    precio: "$4.490.000",
-    kilometraje: "150 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 9  millones.",
-    nuevo: true,
-    imagenes: ["/93.jpg", "/29.jpg", "/31.jpg", "/32.jpg"]
-  },
+
   {
-    id: 3,
+    id: 9,
     marca: "Ford",
     modelo: "Territory Titanium",
     año: 2022,
@@ -53,21 +132,9 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/45.jpg", "/46.jpg", "/47.jpg", "/48.jpg", "/80.jpg"]
   },
-   {
-    id: 4,
-    marca: "Suzuki",
-    modelo: "Sx4 Crossover",
-    año: 2011,
-    precio: "$2.990.000",
-    kilometraje: "113 mil kilómetros",
-    estado: "Se va andando",
-     airbag: "Activo airbag",
-    descripcion: "Seguro pagó 6 millones.",
-    nuevo: true,
-    imagenes: ["/58.jpg", "/102.jpg", "/79.jpg", "/49.jpg"]
-  },
+
  {
-    id: 5,
+    id: 10,
     marca: "Toyota",
     modelo: "Yaris Sport",
     año: 2013,
@@ -80,7 +147,7 @@ export const cars: Car[] = [
     imagenes: ["/25.jpg", "/26.jpg", "/27.jpg", "/37.jpg", "/124.jpg"]
   },
   {
-    id: 6,
+    id: 11,
     marca: "Mazda",
     modelo: "5",
     año: 2014,
@@ -93,7 +160,7 @@ export const cars: Car[] = [
     imagenes: ["/14.jpg", "/15.jpg", "/59.jpg", "/60.jpg", "/61.jpg"]
   },
 {
-    id: 7,
+    id: 12,
     marca: "Suzuki",
     modelo: "Swift Glx",
     año: 2022,
@@ -105,21 +172,9 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/54.jpg", "/63.jpg", "/69.jpg", "/75.jpg"]
   },
+
   {
-    id: 8,
-    marca: "Ford",
-    modelo: "Edge",
-    año: 2011,
-    precio: "$3.990.000",
-    kilometraje: "135 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 9 millones.",
-    nuevo: true,
-    imagenes: ["/55.jpg", "/110.jpg", "/113.jpg", "/115.jpg", "/116.jpg"]
-  },
-  {
-    id: 9,
+    id: 13,
     marca: "Renault",
     modelo: "Clio V",
     año: 2022,
@@ -132,7 +187,7 @@ export const cars: Car[] = [
     imagenes: ["/104.jpg", "/105.jpg", "/106.jpg", "/28.jpg", "/35.jpg"]
   },
    {
-    id: 10,
+    id: 14,
     marca: "Suzuki",
     modelo: "Grand Nomade Glx",
     año: 2015,
@@ -145,7 +200,7 @@ export const cars: Car[] = [
     imagenes: ["/50.jpg", "/51.jpg", "/52.jpg"]
   },
   {
-    id: 11,
+    id: 15,
     marca: "Toyota",
     modelo: "Yaris Spor",
     año: 2019,
@@ -159,7 +214,7 @@ export const cars: Car[] = [
   },
   
    {
-    id: 12,
+    id: 16,
     marca: "Kia",
     modelo: "Seltos",
     año: 2023,
@@ -172,7 +227,7 @@ export const cars: Car[] = [
     imagenes: ["/1.jpg", "/2.jpg", "/3.jpg"]
   },
   {
-    id: 13,
+    id: 17,
     marca: "Chevrolet",
     modelo: "Captiva",
     año: 2018,
@@ -186,7 +241,7 @@ export const cars: Car[] = [
   },
 
  {
-    id: 14,
+    id: 18,
     marca: "Chery",
     modelo: "Tiggo 2",
     año: 2022,
@@ -200,7 +255,7 @@ export const cars: Car[] = [
     imagenes: ["/cherytigo2-4.jpg","/cherytigo2-3.jpg","/cherytigo2-2.jpg","/cherytigo2-1.jpg"]
   },
    {
-    id: 15,
+    id: 19,
     marca: "Buggy ",
     modelo: "Can-Am  maverick X3 Turbo",
     año: 2020,
@@ -212,7 +267,7 @@ export const cars: Car[] = [
     imagenes: ["/Buggy5.jpg", "/Buggy4.jpg", "/Buggy3.jpg","/Buggy2.jpg", "/Buggy1.jpg", "/Buggy.jpg"]
   },
  {
-    id: 16,
+    id: 20,
     marca: "Dodge",
     modelo: "Dakota Sxt ",
     año: 2011,
