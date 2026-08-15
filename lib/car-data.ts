@@ -25,7 +25,7 @@ export const cars: Car[] = [
     airbag: "Solo activo airbag de volante",
     descripcion: "Seguro pagó 26 millones.",
     nuevo: true,
-    imagenes: ["/103.jpg", "/25.jpg", "/26.jpg", "/20.jpg", "/53.jpg", "/19.jpg", "/108.jpg", "/109.jpg"]
+    imagenes: ["/103.jpg", "/25.jpg", "/26.jpg", "/20.jpg", "/53.jpg", "/19.jpg", "/114.jpg"]
   },
  {
     id: 2,
