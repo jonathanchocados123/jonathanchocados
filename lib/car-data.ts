@@ -14,77 +14,64 @@ export interface Car {
 }
 
 export const cars: Car[] = [
-  {
+   {
     id: 1,
-    marca: "Chevrolet",
-    modelo: "Camaro SS 6.2cc",
-    año: 2012,
-    precio: "$13.990.000",
-    kilometraje: "120 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Recuperado de robo",
-    descripcion: "Seguro pagó 20 millones.",
-    nuevo: true,
-    imagenes: ["/118.jpg", "/119.jpg", "/120.jpg", "/74.jpg", "/59.jpg", "/30.jpg"]
-  },
-   {
-    id: 2,
-    marca: "Land Rover",
-    modelo: "Discovery Sport",
-    año: 2017,
-    precio: "$14.990.000",
-    kilometraje: "148 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Recuperado de robo",
-    descripcion: "Seguro pagó 20 millones.",
-    nuevo: true,
-    imagenes: ["/87.jpg", "/122.jpg", "/90.jpg", "/36.jpg", "/15.jpg"]
-  },
-   {
-    id: 3,
-    marca: "Nissan",
-    modelo: "Xtrail",
-    año: 2015,
-    precio: "$6.490.000",
-    kilometraje: "150 mil kilómetros",
+    marca: "RAM",
+    modelo: "1000 Big Horn",
+    año: 2023,
+    precio: "$8.990.000",
+    kilometraje: "65 mil kilómetros",
     estado: "Se va andando",
     airbag: "No activo airbag",
-    descripcion: "Seguro pagó 10 millones.",
+    descripcion: "Seguro pagó 19 millones.",
     nuevo: true,
     imagenes: ["/7.jpg", "/8.jpg","/9.jpg", "/70.jpg", "/88.jpg"]
   },
-   {
-    id: 4,
-    marca: "Kia",
-    modelo: "Soluto",
-    año: 2024,
-    precio: "$5.990.000",
-    kilometraje: "45 mil kilómetros",
+  {
+    id: 2,
+    marca: "Chevrolet",
+    modelo: "Sail",
+    año: 2026,
+    precio: "$6.490.000",
+    kilometraje: "15 mil kilómetros",
     estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 11 millones.",
+    airbag: "Activo airbag",
+    descripcion: "Seguro pagó 12 millones.",
     nuevo: true,
-    imagenes: ["/39.jpg", "/40.jpg", "/80.jpg", "/81.jpg", "/61.jpg"]
+    imagenes: ["/31.jpg", "/32.jpg", "/19.jpg", "/84.jpg"]
   },
-   {
-    id: 5,
-    marca: "Toyota",
-    modelo: "Auris",
-    año: 2017,
+  {
+    id: 3,
+    marca: "Kia",
+    modelo: "morning",
+    año: 2019,
     precio: "$4.990.000",
-    kilometraje: "250 mil kilómetros",
+    kilometraje: "120 mil kilómetros",
     estado: "Se va andando",
     airbag: "No activo airbag",
     descripcion: "Seguro pagó 8.5 millones.",
     nuevo: true,
-    imagenes: ["/Buggy.jpg", "/55.jpg", "/110.jpg", "/113.jpg", "/41.jpg"]
+    imagenes: ["/103.jpg", "/25.jpg", "/26.jpg", "/20.jpg", "/53.jpg"]
+  },
+{
+    id: 4,
+    marca: "Ford",
+    modelo: "Fiesta",
+    año: 2018,
+    precio: "$4.990.000",
+    kilometraje: "110 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 8.5 millones.",
+    nuevo: true,
+    imagenes: ["/85.jpg", "/76.jpg", "/67.jpg", "/66.jpg"]
   },
   {
-    id: 6,
+    id: 5,
     marca: "Subaru",
     modelo: "Impreza",
     año: 2018,
-    precio: "$6.990.000",
+    precio: "$5.990.000",
     kilometraje: "95 mil kilómetros",
     estado: "Se va andando",
     airbag: "No activo airbag",
@@ -93,24 +80,11 @@ export const cars: Car[] = [
     imagenes: ["/86.jpg", "/45.jpg", "/46.jpg", "/47.jpg", "/38.jpg"]
   },
   {
-    id: 7,
-    marca: "Mg",
-    modelo: "Zs",
-    año: 2020,
-    precio: "$4.590.000",
-    kilometraje: "107 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 8.5 millones.",
-    nuevo: true,
-    imagenes: ["/85.jpg", "/76.jpg", "/67.jpg", "/66.jpg"]
-  },
-  {
-    id: 8,
+    id: 6,
     marca: "Honda",
     modelo: "Pilot",
     año: 2014,
-    precio: "$5.990.000",
+    precio: "$4.990.000",
     kilometraje: "118 mil kilómetros",
     estado: "Se va andando",
     airbag: "Activo airbag",
@@ -119,24 +93,11 @@ export const cars: Car[] = [
     imagenes: ["/111.jpg", "/112.jpg", "/42.jpg", "/116.jpg"]
   },
   {
-    id: 9,
-    marca: "Jmc",
-    modelo: "Vigus",
-    año: 2021,
-    precio: "$3.990.000",
-    kilometraje: "320 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 9 millones.",
-    nuevo: true,
-    imagenes: ["/31.jpg", "/32.jpg", "/19.jpg", "/84.jpg"]
-  },
-  {
-    id: 10,
+    id: 7,
     marca: "Volvo",
     modelo: "V40 D2",
     año: 2017,
-    precio: "$5.590.000",
+    precio: "$4.990.000",
     kilometraje: "140 mil kilómetros",
     estado: "Se va andando",
     airbag: "Activo airbag",
@@ -145,11 +106,11 @@ export const cars: Car[] = [
     imagenes: ["/23.jpg", "/56.jpg", "/57.jpg", "/72.jpg"]
   },
    {
-    id: 11,
+    id: 8,
     marca: "Nissan",
     modelo: "Versa",
     año: 2015,
-    precio: "$3.790.000",
+    precio: "$3.490.000",
     kilometraje: "150 mil kilómetros",
     estado: "Se va andando",
     airbag: "No activo airbag",
@@ -158,7 +119,7 @@ export const cars: Car[] = [
     imagenes: ["/43.jpg", "/44.jpg", "/16.jpg", "/92.jpg"]
   },
   {
-    id: 12,
+    id: 9,
     marca: "Chevrolet",
     modelo: "Ónix",
     año: 2018,
@@ -171,7 +132,7 @@ export const cars: Car[] = [
     imagenes: ["/21.jpg",  "/1.jpg", "/108.jpg", "/109.jpg"]
   },
   {
-    id: 13,
+    id: 10,
     marca: "Volvo",
     modelo: "Xc60 ll T5 (4x4)",
     año: 2019,
@@ -184,7 +145,7 @@ export const cars: Car[] = [
     imagenes: ["/17.jpg", "/2.jpg", "/3.jpg", "/124.jpg"]
   },
   {
-    id: 14,
+    id: 11,
     marca: "Volvo",
     modelo: "S60 D4 Cross Country",
     año: 2019,
@@ -197,7 +158,7 @@ export const cars: Car[] = [
     imagenes: ["/54.jpg", "/63.jpg", "/69.jpg", "/75.jpg", "/60.jpg"]
   },
  {
-    id: 15,
+    id: 12,
     marca: "Chevrolet",
     modelo: "Groove Ltz",
     año: 2021,
@@ -210,11 +171,11 @@ export const cars: Car[] = [
     imagenes: ["/24.jpg", "/50.jpg", "/51.jpg", "/52.jpg", "/91.jpg"]
   },
    {
-    id: 16,
+    id: 13,
     marca: "Ford",
     modelo: "Explorer",
     año: 2015,
-    precio: "$6.990.000",
+    precio: "$6.790.000",
     kilometraje: "160 mil kilómetros",
     estado: "Se va andando",
     airbag: "Recuperada de robo",
@@ -223,7 +184,7 @@ export const cars: Car[] = [
     imagenes: ["/33.jpg", "/49.jpg", "/58.jpg", "/68.jpg", "/121.jpg"]
   },
   {
-    id: 17,
+    id: 14,
     marca: "Volvo",
     modelo: "S60 Lmted",
     año: 2015,
@@ -235,21 +196,8 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/5.jpg", "/6.jpg", "/100.jpg", "/101.jpg", "/107.jpg"]
   },
-{
-    id: 18,
-    marca: "Nissan",
-    modelo: "versa",
-    año: 2023,
-    precio: "$5.590.000",
-    kilometraje: "90 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 11 millones.",
-    nuevo: true,
-    imagenes: ["/103.jpg", "/25.jpg", "/26.jpg", "/20.jpg", "/53.jpg"]
-  },
   {
-    id: 19,
+    id: 15,
     marca: "Chery",
     modelo: "Tiggo 2",
     año: 2022,
