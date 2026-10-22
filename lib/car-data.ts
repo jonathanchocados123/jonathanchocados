@@ -14,21 +14,47 @@ export interface Car {
 }
 
 export const cars: Car[] = [
-  {
+   {
     id: 1,
-    marca: "Nissan",
-    modelo: "Navara",
-    año: 2022,
+    marca: "Chevrolet",
+    modelo: "Colorado",
+    año: 2021,
     precio: "$10.990.000",
-    kilometraje: "84 mil kilómetros",
+    kilometraje: "150 mil kilómetros",
     estado: "Se va andando",
     airbag: "No activo airbag",
     descripcion: "Seguro pagó 20 millones.",
     nuevo: true,
-    imagenes: ["/33.jpg", "/49.jpg", "/58.jpg", "/68.jpg", "/36.jpg"]
+    imagenes: ["/43.jpg", "/44.jpg", "/16.jpg", "/92.jpg", "/76.jpg"]
+  },
+    {
+    id: 2,
+    marca: "Ford",
+    modelo: "Territory Titanium",
+    año: 2023,
+    precio: "$9.490.000",
+    kilometraje: "15 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "Recuperada de robo",
+    descripcion: "Seguro pagó 15 millones.",
+    nuevo: true,
+    imagenes: ["/74.jpg", "/59.jpg", "/30.jpg", "/88.jpg", "/72.jpg"]
+  },
+  {
+    id: 3,
+    marca: "Toyota",
+    modelo: "Auris",
+    año: 2017,
+    precio: "$4.990.000",
+    kilometraje: "211 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 8.5 millones.",
+    nuevo: true,
+    imagenes: ["/23.jpg", "/56.jpg", "/57.jpg", "/36.jpg"]
   },
  {
-    id: 2,
+    id: 4,
     marca: "Lexus",
     modelo: "Rx450 (Hybrido)",
     año: 2011,
@@ -41,7 +67,7 @@ export const cars: Car[] = [
     imagenes: ["/18.jpg", "/13.jpg", "/62.jpg", "/10.jpg", "/Buggy5.jpg"]
   },
    {
-    id: 3,
+    id: 5,
     marca: "Peugeot",
     modelo: "3008",
     año: 2023,
@@ -53,60 +79,8 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/71.jpg", "/83.jpg", "/73.jpg", "/67.jpg", "/66.jpg"]
   },
-   {
-    id: 4,
-    marca: "Chery",
-    modelo: "Tiggo 7 Glx",
-    año: 2023,
-    precio: "$6.990.000",
-    kilometraje: "130 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 13 millones.",
-    nuevo: true,
-    imagenes: ["/43.jpg", "/44.jpg", "/16.jpg", "/92.jpg", "/76.jpg"]
-  },
   {
-    id: 5,
-    marca: "Jac",
-    modelo: "t6",
-    año: 2020,
-    precio: "$3.990.000",
-    kilometraje: "100 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 9 millones.",
-    nuevo: true,
-    imagenes: ["/7.jpg", "/8.jpg","/9.jpg"]
-  },
-   {
     id: 6,
-    marca: "Chevrolet",
-    modelo: "Spark",
-    año: 2021,
-    precio: "$4.590.000",
-    kilometraje: "110 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 8.5 millones.",
-    nuevo: true,
-    imagenes: ["/74.jpg", "/59.jpg", "/30.jpg", "/88.jpg", "/72.jpg"]
-  },
-    {
-    id: 7,
-    marca: "Chevrolet",
-    modelo: "Dmax",
-    año: 2019,
-    precio: "$4.990.000",
-    kilometraje: "211 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 10 millones.",
-    nuevo: true,
-    imagenes: ["/23.jpg", "/56.jpg", "/57.jpg"]
-  },
-  {
-    id: 8,
     marca: "Honda",
     modelo: "Crv",
     año: 2010,
@@ -119,7 +93,7 @@ export const cars: Car[] = [
     imagenes: ["/31.jpg", "/32.jpg", "/19.jpg", "/84.jpg", "/120.jpg"]
   },
    {
-    id: 9,
+    id: 7,
      marca: "Chery",
     modelo: "Tiggo 3",
     año: 2019,
@@ -132,7 +106,7 @@ export const cars: Car[] = [
     imagenes: ["/93.jpg", "/22.jpg", "/35.jpg", "/12.jpg"]
   },
  {
-    id: 10,
+    id: 8,
     marca: "Peugeot",
     modelo: "2008",
     año: 2025,
@@ -145,7 +119,7 @@ export const cars: Car[] = [
     imagenes: ["/86.jpg", "/45.jpg", "/46.jpg", "/47.jpg", "/38.jpg"]
   },
   {
-    id: 11,
+    id: 9,
     marca: "Nissan",
     modelo: "Kick Exclusive",
     año: 2021,
@@ -158,7 +132,7 @@ export const cars: Car[] = [
     imagenes: ["/5.jpg", "/6.jpg", "/100.jpg", "/101.jpg", "/107.jpg"]
   },
  {
-    id: 12,
+    id: 10,
     marca: "Chevrolet",
     modelo: "Ónix",
     año: 2018,
@@ -171,7 +145,7 @@ export const cars: Car[] = [
     imagenes: ["/21.jpg",  "/1.jpg", "/108.jpg", "/109.jpg"]
   },
   {
-    id: 13,
+    id: 11,
     marca: "Volvo",
     modelo: "Xc60 ll T5 (4x4)",
     año: 2019,
@@ -184,7 +158,7 @@ export const cars: Car[] = [
     imagenes: ["/17.jpg", "/2.jpg", "/3.jpg", "/124.jpg"]
   },
   {
-    id: 14,
+    id: 12,
     marca: "Volvo",
     modelo: "S60 D4 Cross Country",
     año: 2019,
@@ -197,7 +171,7 @@ export const cars: Car[] = [
     imagenes: ["/54.jpg", "/63.jpg", "/69.jpg", "/75.jpg", "/60.jpg"]
   },
  {
-    id: 15,
+    id: 13,
     marca: "Chevrolet",
     modelo: "Groove Ltz",
     año: 2021,
@@ -210,7 +184,7 @@ export const cars: Car[] = [
     imagenes: ["/24.jpg", "/50.jpg", "/51.jpg", "/52.jpg", "/91.jpg"]
   },
   {
-    id: 16,
+    id: 14,
     marca: "Chery",
     modelo: "Tiggo 2",
     año: 2022,
