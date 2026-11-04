@@ -268,7 +268,6 @@ export const cars: Car[] = [
     año: 2020,
     precio: "$3.990.000",
     kilometraje: "108 mil kilómetros",
-    estado: "Se va andando",
     airbag: "No activo airbag",
     descripcion: "Seguro pagó 10 millones.",
     nuevo: true,
