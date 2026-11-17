@@ -14,8 +14,86 @@ export interface Car {
 }
 
 export const cars: Car[] = [
-    {
+  {
     id: 1,
+    marca: "Toyota",
+    modelo: "Yaris",
+    año: 2022,
+    precio: "$5.990.000",
+    kilometraje: "200 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 12 millones.",
+    nuevo: true,
+    imagenes: ["/87.jpg", "/89.jpg", "/90.jpg", "/94.jpg", "/95.jpg"]
+  },
+ {
+    id: 2,
+    marca: "Toyota",
+    modelo: "Rav 4 Limited (4x4)",
+    año: 2016,
+    precio: "$8.490.000",
+    kilometraje: "118 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 17 millones.",
+    nuevo: true,
+    imagenes: ["/43.jpg", "/44.jpg", "/16.jpg", "/25.jpg", "/26.jpg"]
+  },
+    {
+    id: 3,
+    marca: "Ford",
+    modelo: "Edge",
+    año: 2019,
+    precio: "$7.990.000",
+    kilometraje: "90 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "Activo airbag",
+    descripcion: "Seguro pagó 16 millones.",
+    nuevo: true,
+    imagenes: ["/74.jpg", "/59.jpg", "/30.jpg", "/88.jpg"]
+  },
+   {
+    id: 4,
+    marca: "Peugeot",
+    modelo: "208",
+    año: 2023,
+    precio: "$7.990.000",
+    kilometraje: "45 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 12 millones.",
+    nuevo: true,
+    imagenes: ["/67.jpg", "/66.jpg", "/7.jpg", "/23.jpg"]
+  },
+     {
+    id: 5,
+    marca: "Volkswagen",
+    modelo: "T Cross",
+    año: 2021,
+    precio: "$7.990.000",
+    kilometraje: "130 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 16 millones.",
+    nuevo: true,
+    imagenes: ["/Buggy4.jpg", "/Buggy3.jpg", "/Buggy2.jpg", "/Buggy1.jpg", "/62.jpg"]
+  },
+   {
+    id: 6,
+    marca: "Chevrolet",
+    modelo: "Tracker",
+    año: 2018,
+    precio: "$5.990.000",
+    kilometraje: "109 mil kilómetros",
+    estado: "Se va andando",
+    airbag: "No activo airbag",
+    descripcion: "Seguro pagó 10 millones.",
+    nuevo: true,
+    imagenes: ["/24.jpg", "/50.jpg", "/51.jpg"]
+  },
+   {
+    id: 7,
     marca: "Range Rover",
     modelo: "Evoque Sport",
     año: 2013,
@@ -28,7 +106,7 @@ export const cars: Car[] = [
     imagenes: ["/54.jpg", "/Buggy5.jpg", "/93.jpg", "/22.jpg", "/35.jpg"]
   },
   {
-    id: 2,
+    id: 8,
     marca: "Mazda",
     modelo: "3 Gt 2.5",
     año: 2025,
@@ -41,7 +119,7 @@ export const cars: Car[] = [
     imagenes: ["/65.jpg", "/37.jpg", "/114.jpg"]
   },
     {
-    id: 3,
+    id: 9,
     marca: "BYD",
     modelo: "Yuan Plus",
     año: 2024,
@@ -53,8 +131,8 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/77.jpg", "/78.jpg", "/29.jpg", "/10.jpg"]
   },
-      {
-    id: 4,
+  {
+    id: 10,
     marca: "Toyota",
     modelo: "Rav 4",
     año: 2013,
@@ -66,8 +144,8 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/98.jpg", "/99.jpg", "/102.jpg", "/79.jpg"]
   },
-    {
-    id: 5,
+  {
+    id: 11,
     marca: "Suzuki",
     modelo: "Grand Nomade Glx",
     año: 2013,
@@ -79,21 +157,8 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/101.jpg", "/85.jpg", "/96.jpg", "/97.jpg"]
   },
-    {
-    id: 6,
-    marca: "Nissan",
-    modelo: "Qashqai",
-    año: 2013,
-    precio: "$4.490.000",
-    kilometraje: "290 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 7 millones.",
-    nuevo: true,
-    imagenes: ["/48.jpg", "/5.jpg", "/6.jpg", "/100.jpg"]
-  },
-    {
-    id: 7,
+   {
+    id: 12,
     marca: "Bmw",
     modelo: "X1 SDrive Look M",
     año: 2014,
@@ -105,21 +170,8 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/63.jpg", "/69.jpg", "/75.jpg", "/60.jpg"]
   },
-    {
-    id: 8,
-    marca: "Mini",
-    modelo: "Cooper S",
-    año: 2013,
-    precio: "$6.490.000",
-    kilometraje: "130 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 14 millones.",
-    nuevo: true,
-    imagenes: ["/53.jpg", "/55.jpg", "/61.jpg", "/110.jpg", "/38.jpg"]
-  },
-    {
-    id: 9,
+  {
+    id: 13,
     marca: "Daihatsu",
     modelo: "Terios",
     año: 2013,
@@ -131,21 +183,9 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/56.jpg", "/57.jpg", "/36.jpg"]
   },
- {
-    id: 10,
-    marca: "Chery",
-    modelo: "Tiggo 2",
-    año: 2023,
-    precio: "$5.990.000",
-    kilometraje: "37 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 10 millones.",
-    nuevo: true,
-    imagenes: ["/67.jpg", "/66.jpg", "/7.jpg", "/23.jpg"]
-  },
+
   {
-    id: 11,
+    id: 14,
     marca: "Jeep",
     modelo: "Grand Cherokee Limited",
     año: 2017,
@@ -158,45 +198,6 @@ export const cars: Car[] = [
     imagenes: ["/40.jpg", "/41.jpg", "/42.jpg", "/12.jpg", "/47.jpg"]
   },
  {
-    id: 12,
-    marca: "Kia",
-    modelo: "Sportage",
-    año: 2023,
-    precio: "$12.990.000",
-    kilometraje: "40 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Activo airbag",
-    descripcion: "Seguro pagó 21 millones.",
-    nuevo: true,
-    imagenes: ["/87.jpg", "/89.jpg", "/90.jpg", "/94.jpg", "/95.jpg"]
-  },
-   {
-    id:13,
-    marca: "Volkswagen",
-    modelo: "Touareg Tdi",
-    año: 2016,
-    precio: "$8.990.000",
-    kilometraje: "190 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 20 millones.",
-    nuevo: true,
-    imagenes: ["/43.jpg", "/44.jpg", "/16.jpg", "/25.jpg", "/26.jpg"]
-  },
-  {
-    id: 14,
-    marca: "Kia",
-    modelo: "Morning",
-    año: 2019,
-    precio: "$5.990.000",
-    kilometraje: "80 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "No activo airbag",
-    descripcion: "Seguro pagó 10 millones.",
-    nuevo: true,
-    imagenes: ["/74.jpg", "/59.jpg", "/30.jpg", "/88.jpg", "/62.jpg"]
-  },
-  {
     id: 15,
     marca: "Mg",
     modelo: "Zs",
@@ -222,21 +223,8 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/80.jpg", "/86.jpg", "/45.jpg", "/46.jpg", "/103.jpg"]
   },
-   {
-    id: 17,
-    marca: "Ford",
-    modelo: "Territory",
-    año: 2021,
-    precio: "$8.990.000",
-    kilometraje: "60 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Recuperada de robo",
-    descripcion: "Seguro pagó 15 millones.",
-    nuevo: true,
-    imagenes: ["/Buggy4.jpg", "/Buggy3.jpg", "/Buggy2.jpg", "/Buggy1.jpg"]
-  },
   {
-    id: 18,
+    id: 17,
     marca: "Suzuki",
     modelo: "Grand Vitara Glx Sport",
     año: 2015,
@@ -249,7 +237,7 @@ export const cars: Car[] = [
     imagenes: ["/8.jpg", "/9.jpg", "/33.jpg", "/49.jpg"]
   },
    {
-    id: 19,
+    id: 18,
     marca: "Subaru",
     modelo: "Impreza sport",
     año: 2020,
@@ -262,7 +250,7 @@ export const cars: Car[] = [
     imagenes: ["/81.jpg", "/82.jpg", "/27.jpg", "/28.jpg"]
   },
  {
-    id: 20,
+    id: 19,
      marca: "Mazda",
     modelo: "Cx3",
     año: 2019,
@@ -275,7 +263,7 @@ export const cars: Car[] = [
     imagenes: ["/58.jpg", "/107.jpg", "/92.jpg", "/76.jpg"]
   },
   {
-    id: 21,
+    id: 20,
     marca: "Mercedes",
     modelo: "C180",
     año: 2014,
@@ -288,7 +276,7 @@ export const cars: Car[] = [
     imagenes: ["/31.jpg", "/32.jpg", "/19.jpg", "/84.jpg", "/120.jpg"]
   },
   {
-    id: 22,
+    id: 21,
     marca: "Chevrolet",
     modelo: "Ónix",
     año: 2018,
@@ -301,7 +289,7 @@ export const cars: Car[] = [
     imagenes: ["/21.jpg",  "/1.jpg", "/108.jpg", "/109.jpg"]
   },
   {
-    id: 23,
+    id: 22,
     marca: "Volvo",
     modelo: "Xc60 ll T5 (4x4)",
     año: 2019,
@@ -313,19 +301,7 @@ export const cars: Car[] = [
     nuevo: true,
     imagenes: ["/17.jpg", "/2.jpg", "/3.jpg", "/124.jpg"]
   },
- {
-    id: 24,
-    marca: "Chevrolet",
-    modelo: "Groove premier",
-    año: 2021,
-    precio: "$6.290.000",
-    kilometraje: "94 mil kilómetros",
-    estado: "Se va andando",
-    airbag: "Recuperada de robo",
-    descripcion: "Seguro pagó 11 millones.",
-    nuevo: true,
-    imagenes: ["/24.jpg", "/50.jpg", "/51.jpg", "/52.jpg", "/91.jpg"]
-  },
+
 
   
 
