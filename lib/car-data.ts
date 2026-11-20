@@ -319,7 +319,7 @@ export const cars: Car[] = [
     marca: "Mercedes",
     modelo: "C180",
     año: 2014,
-    precio: "$4.690.000",
+    precio: "$6.490.000",
     kilometraje: "190 mil kilómetros",
     estado: "Se va andando",
     airbag: "No activo airbag",
